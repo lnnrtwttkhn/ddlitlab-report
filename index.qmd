@@ -5,6 +5,76 @@ title: "DDLitLab Report"
 engine: knitr
 ---
 
+## Freitextfragen:
+
+### Konnte der Zeitplan wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
+
+### Konnte der Personaleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
+
+### Konnte der Sachmitteleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
+
+### Was waren die Gründe für die Entwicklung Ihrer Projektidee bzw. Ihres Lehrprojektes? (öffentlich)
+
+(Wenn man in der Lehrpraxis etwas verändert und dazu eine neue Maßnahme (in diesem Fall: ein Lehrveranstaltungskonzept) entwickelt, hat das immer irgendeinen Grund. Erzählen Sie in eigenen Worten, was Sie zu Ihrer Maßnahme bewogen hat: Wie und warum sind Sie auf Ihre Maßnahme gekommen? Was waren Auslöser oder Impulse? 
+
+Bitte schreiben Sie hier 100-500 Wörter.)
+
+### Gab es Ziele, die (abweichend vom Projektantrag) verändert oder angepasst wurden? Bitte nennen Sie diese und führen Sie die Gründe aus.
+
+### Konnten die Ziele (z.B. in der Lehre, im Transfer, im Allgemeinen) in Ihrem Projekt erreicht werden? (kommentar zu Ja/Nein/Teilweise)
+
+### Welche zentralen Ergebnisse wurden Ihrer Ansicht nach mit Ihrem Lehrprojekt erzielt? (öffentlich)
+
+(Bitte berücksichtigen Sie dabei die Ausgangslage Ihres Lehrprojektes, die Umsetzung der Projektziele und die Realisierung der im Antrag dargestellten Innovationsidee.
+
+Bitte schreiben Sie hier 250-1000 Wörter.)
+
+
+### Bitte skizzieren Sie Ergebnisse und Entwicklungen im Projektverlauf, die für Sie unerwartet waren. (öffentlich)
+
+(Bitte schreiben Sie hier 50-500 Wörter.)
+
+### Wie hat sich Ihre digitale und didaktische Kompetenz als Lehrperson im Rahmen der Projektförderung entwickelt? (öffentlich)
+
+(Bitte schreiben Sie hier 100-1000 Wörter.)
+
+### Welchen Beitrag hat Ihr Lehrprojekt zur Data Literacy Education (DLE) an der Universität Hamburg geleistet? In Bezug darauf: Welche Kompetenzen haben die Studierenden erworben? (öffentlich)
+
+(Bitte schreiben Sie hier 100-1000 Wörter.)
+
+### Wird Ihre Lehrveranstaltung wiederholt? Falls ja oder teilweise, schildern Sie welche Anteile/Aspekte der Veranstaltung wiederholt werden. Falls nicht, schildern Sie den Grund, warum die Veranstaltung nicht wiederholt wird. (öffentlich)
+
+(Kommentar zu Ja/teilweise/nein)
+
+(Bitte schreiben Sie hier 50-500 Wörter.)
+
+### Welche Aspekte (Inhalte, Formate, Materialien, etc.) Ihres Lehrprojektes werden in zukünftige Lehrveranstaltungen einfließen? (öffentlich)
+
+Bitte schreiben Sie hier 50-500 Wörter.
+
+### Hätten Sie Ideen, wie die Ergebnisse Ihres Lehrprojektes in anderen Fächern oder auch fachübergreifend fruchtbar gemacht werden könnten? (öffentlich)
+
+### Haben Sie Daten erhoben, gewonnen oder ausgewertet, die Sie in Forschung und/oder Lehre weiterhin nutzen werden? (öffentlich)
+
+(kommentar zu Ja/nein/teilweise)
+
+(Sofern zutreffend: Bitte schildern Sie weitere Spezifikationen: Welche Menge an Daten? Welche Art von Daten? Aus welchen Datenquellen? etc.)
+
+
+### Falls zutreffend: Beschreiben Sie das Lehrmaterial, welches Sie im Rahmen der Lehrveranstaltung entwickelt haben! (öffentlich)
+
+
+### Falls zutreffend: Wie und wo publizieren Sie über Ihre Lehre und woran orientieren Sie sich dabei (z.B. Format, Struktur, etc.)?
+
+
+### Falls zutreffend: Welchen Forschungsfragen sind Sie nachgegangen, was ist Ihr Erkenntnisinteresse? Auf welche Theorien beziehen Sie sich in Ihrer Forschung? (öffentlich)
+
+### Sofern Sie bereits Lehrmaterial und/oder Forschungsbeiträge im Zusammenhang mit dem Projekt veröffentlicht haben oder auch Konferenzbeiträge/-vorträge im Zusammenhang mit ihrem Projekt existieren, listen Sie dieses bitte hier auf. Referenzieren Sie dabei möglichst im APA-Stil und geben Sie, sofern vorhanden, Verlinkungen an. (öffentlich)
+
+### Bitte geben Sie hier Verweise auf bereits eingetragene Publikationen im Portal Forschungsinformation (FIS) oder dem Forschungsdatenrepositorium (FDR) der Universität Hamburg an. (öffentlich)
+
+### Ihr Kommentar: Haben Sie weitere Anmerkungen, die sich nirgendwo gut unterbringen ließen, ggf. auch an das DDLitLab-Team?
+
 ## Edits
 
 ### Necessary
