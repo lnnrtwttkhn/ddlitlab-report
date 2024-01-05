@@ -9,11 +9,20 @@ engine: knitr
 
 ### Konnte der Zeitplan wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
 
+- Nein: Ursprünglich Zeitplan für Seminar geändert, Abweichungen von Dauer der Themen zu tatsächlich, 2 Ausfälle durch Krankheit
+
 ### Konnte der Personaleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
+
+- Ja?, weniger SHK eingesetzt als geplant?
 
 ### Konnte der Sachmitteleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
 
+- Ja?
+
 ### Was waren die Gründe für die Entwicklung Ihrer Projektidee bzw. Ihres Lehrprojektes? (öffentlich)
+
+- Versionskontrolle zu wenig im wissenschaftlichen Kontext. 
+- Kann man hier von antrag recycclen?
 
 (Wenn man in der Lehrpraxis etwas verändert und dazu eine neue Maßnahme (in diesem Fall: ein Lehrveranstaltungskonzept) entwickelt, hat das immer irgendeinen Grund. Erzählen Sie in eigenen Worten, was Sie zu Ihrer Maßnahme bewogen hat: Wie und warum sind Sie auf Ihre Maßnahme gekommen? Was waren Auslöser oder Impulse? 
 
@@ -21,9 +30,15 @@ Bitte schreiben Sie hier 100-500 Wörter.)
 
 ### Gab es Ziele, die (abweichend vom Projektantrag) verändert oder angepasst wurden? Bitte nennen Sie diese und führen Sie die Gründe aus.
 
+- ja nur Git statt Git + DataLad aus oben genannten gründen
+
 ### Konnten die Ziele (z.B. in der Lehre, im Transfer, im Allgemeinen) in Ihrem Projekt erreicht werden? (kommentar zu Ja/Nein/Teilweise)
 
+- teilweise, da nur Git
+
 ### Welche zentralen Ergebnisse wurden Ihrer Ansicht nach mit Ihrem Lehrprojekt erzielt? (öffentlich)
+
+- Kennenlernen von Versionskontrolle im wissenshcfatlichen kontext
 
 (Bitte berücksichtigen Sie dabei die Ausgangslage Ihres Lehrprojektes, die Umsetzung der Projektziele und die Realisierung der im Antrag dargestellten Innovationsidee.
 
