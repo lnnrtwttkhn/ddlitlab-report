@@ -1,6 +1,5 @@
 ---
-title: "Quarto Article Template"
-subtitle: "A personal template for Quarto articles"
+title: "DDLitLab Report"
 # date:
 # date-modified:
 engine: knitr
