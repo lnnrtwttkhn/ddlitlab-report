@@ -55,10 +55,18 @@ Allerdings wurde entschieden, ausschließlich auf Präsenzlehre zu setzen und di
 
 ### Konnten die Ziele (z.B. in der Lehre, im Transfer, im Allgemeinen) in Ihrem Projekt erreicht werden? (kommentar zu Ja/Nein/Teilweise)
 
+Teilweise. Das Ziel, eine Einführung in Git zu geben, wurde erfolgreich erreicht. Alle Teilnehmer haben nun GitHub-Accounts und sind mit dem Konzept der Versionskontrolle vertraut. Jedoch wurde nur Git behandelt, und die ursprünglich geplante Einbindung von DataLad konnte aufgrund von Zeitbeschränkungen nicht umgesetzt werden. Daher wurde nur ein Teil der ursprünglich geplanten Ziele erreicht.
+
 - teilweise, da nur Git
 - Einführung in Git gelungen, alle Teilnehmer haben GitHub Accounts, vertraut mit Konzept der Versionskontrolle
 
 ### Welche zentralen Ergebnisse wurden Ihrer Ansicht nach mit Ihrem Lehrprojekt erzielt? (öffentlich)
+
+Die Teilnehmer haben die Möglichkeit erhalten, Versionskontrolle im wissenschaftlichen Kontext kennenzulernen, insbesondere durch die praxisorientierte Anwendung von Git. Durch praktische Übungen und die Nutzung von Plattformen wie GitHub haben sie fundierte Kenntnisse darüber erworben, wie Veränderungen in digitalen Objekten dokumentiert und nachvollzogen werden können.
+
+Ein weiteres bedeutsames Ergebnis des Lehrprojekts ist die Schaffung einer Open-Source-Lernressource. Diese Ressource steht nicht nur den Teilnehmern des Projekts zur Verfügung, sondern auch der breiten Öffentlichkeit. Sie fungiert als Leitfaden für die effektive Nutzung von Git im wissenschaftlichen Umfeld. Die Bereitstellung von Open-Source-Lernmaterialien trägt dazu bei, die Verbreitung von Wissen über Versionskontrolle zu fördern und unterstützt eine offene und transparente wissenschaftliche Praxis.
+
+Insgesamt haben die erzielten Ergebnisse dazu beigetragen, das Verständnis für Versionskontrolle zu vertiefen und gleichzeitig wertvolle Ressourcen für die Gemeinschaft zu schaffen. Dies trägt nicht nur zur Data Literacy der Teilnehmer bei, sondern fördert auch die Prinzipien von Offenheit und Zusammenarbeit im wissenschaftlichen Umfeld.
 
 - Kennenlernen von Versionskontrolle im wissenschaftlichen kontext für Teinehmer
 - Erstellen von Open Source Lernressource 
@@ -68,6 +76,15 @@ Allerdings wurde entschieden, ausschließlich auf Präsenzlehre zu setzen und di
 Bitte schreiben Sie hier 250-1000 Wörter.)
 
 ### Bitte skizzieren Sie Ergebnisse und Entwicklungen im Projektverlauf, die für Sie unerwartet waren. (öffentlich)
+
+Im Verlauf des Lehrprojekts traten verschiedene Ergebnisse und Entwicklungen auf, die teilweise unerwartet waren und Einfluss auf den Projektverlauf hatten.
+
+Eine unerwartete Herausforderung war die Eingliederung des neuen Seminars in die Uni-Struktur. Die organisatorischen Anpassungen und die Abstimmung mit den bestehenden Strukturen erwiesen sich als herausfordernd. Dies unterstreicht die Bedeutung einer frühzeitigen Planung und Koordination, um die Integration neuer Lehrveranstaltungen reibungsloser zu gestalten.
+
+Ein weiterer Punkt, der sich anders entwickelte als erwartet, war die Teilnehmerzahl, die geringer ausfiel als erhofft. Dies könnte auf verschiedene Gründe zurückzuführen sein, wie z. B. mangelnde Bekanntheit des neuen Seminars oder mögliche Überschneidungen mit anderen Veranstaltungen. Die Identifikation dieser Faktoren könnte in Zukunft helfen, eine höhere Teilnahme zu gewährleisten.
+
+Des Weiteren gab es Abweichungen von der angedachten Dauer der einzelnen Themen, und zwei Ausfälle aufgrund von Krankheit beeinträchtigten den ursprünglich geplanten Ablauf. Solche unvorhergesehenen Ereignisse sind in der Lehre nicht ungewöhnlich und erfordern eine flexible Anpassung, um die Qualität der Vermittlung zu gewährleisten.
+
 
 - Eingliederung von neuem Seminar in Uni-Struktur herausvordernd
 - Weniger Teilnehmer als erhofft
@@ -87,6 +104,11 @@ Bitte schreiben Sie hier 250-1000 Wörter.)
 
 ### Welchen Beitrag hat Ihr Lehrprojekt zur Data Literacy Education (DLE) an der Universität Hamburg geleistet? In Bezug darauf: Welche Kompetenzen haben die Studierenden erworben? (öffentlich)
 
+Das Lehrprojekt hat zur Data Literacy Education (DLE) an der Universität Hamburg beigetragen, indem es den Studierenden essenzielle Kompetenzen im Umgang mit Git und GitHub im wissenschaftlichen Kontext vermittelt hat.
+Die erworbenen Fähigkeiten ermöglichen den Studierenden präzise Dokumentation von Änderungen in digitalen Objekten, fördern die Zusammenarbeit durch paralleles Arbeiten an denselben Dateien und unterstützen die Transparenz in der Forschung.
+Die Studierenden haben grundlegende Techniken der Versionskontrolle erlernt, darunter das Revidieren von Änderungen, den Vergleich von Versionen und die Wiederherstellung früherer Zustände von Code und Daten. 
+Diese praxisnahen Kompetenzen stärken nicht nur ihre Data Literacy, sondern bereiten sie auch auf datengetriebene Herausforderungen in verschiedenen beruflichen Kontexten vor.
+
 - Umgang mit Git + GitHub im wissenschaftlichen Kontext
 
 (Bitte schreiben Sie hier 100-1000 Wörter.)
@@ -101,13 +123,35 @@ Bitte schreiben Sie hier 250-1000 Wörter.)
 
 ### Welche Aspekte (Inhalte, Formate, Materialien, etc.) Ihres Lehrprojektes werden in zukünftige Lehrveranstaltungen einfließen? (öffentlich)
 
+@lennart
+
+**Vorhandene Materialien:**
+
+- Buch
+
+- Quarto Workshop
+
+- Selbstkontrollfragen
+
+
 Bitte schreiben Sie hier 50-500 Wörter.
 
 ### Hätten Sie Ideen, wie die Ergebnisse Ihres Lehrprojektes in anderen Fächern oder auch fachübergreifend fruchtbar gemacht werden könnten? (öffentlich)
 
-- Bereitstellung der entwickleten Lernressource (Buch) für alle die Interesse haben.
+Ja, die Ergebnisse des Lehrprojekts könnten in anderen Fächern und fachübergreifend fruchtbar gemacht werden, indem die entwickelte Lernressource für alle Interessierten zugänglich gemacht wird. 
+Diese Ressource könnte als Grundlage für Schulungen oder Seminare in anderen Fachbereichen dienen, in denen der Umgang mit Versionskontrolle relevant ist.
+
+Durch die Bereitstellung der Lernressource als Open Educational Resource (OER) wird die unabhängige Nutzung und Weiterentwicklung durch Lehrende in verschiedenen Disziplinen ermöglicht. 
+Dies fördert die Verbreitung von Kenntnissen über Versionskontrolle und trägt zur Stärkung der Data Literacy in unterschiedlichen wissenschaftlichen und beruflichen Kontexten bei.
+
+- Bereitstellung der entwickleten Lernressource für alle die Interesse haben.
 
 ### Haben Sie Daten erhoben, gewonnen oder ausgewertet, die Sie in Forschung und/oder Lehre weiterhin nutzen werden? (öffentlich)
+
+Ja, im Rahmen des Lehrprojekts wurden pseudonymisierte Ergebnisse der Selbstkontrollfragen als erhobene Daten verwendet. 
+Diese Daten könnten möglicherweise als Grundlage für weitere Analysen oder zur Verbesserung von Lehrmethoden in zukünftigen Lehrveranstaltungen dienen.
+
+Es ist jedoch zu beachten, dass die erhobenen Daten nicht für Forschungszwecke verwendet werden und in erster Linie dazu dienen könnten, den Lehransatz zu evaluieren und gegebenenfalls anzupasse
 
 - Pseudonymisierte Ergebnisse der Selbstkontrollfragen als erhobene Daten   
 - Keine Verwendung für Forschung
@@ -118,9 +162,23 @@ Bitte schreiben Sie hier 50-500 Wörter.
 
 ### Falls zutreffend: Beschreiben Sie das Lehrmaterial, welches Sie im Rahmen der Lehrveranstaltung entwickelt haben! (öffentlich)
 
+Im Rahmen der Lehrveranstaltung wurde ein umfassendes Open-Source-Buch mit dem Titel "Version Control of Code and Data - An Introduction for Scientists" entwickelt
+. Dieses Buch dient als zentrale Ressource zur Einführung in die Versionskontrolle von Code und Daten im wissenschaftlichen Kontext. Es ist auf der Website https://lennartwittkuhn.com/version-control-book/ frei verfügbar.
+Neben dem Buch wurde ein Quarto Workshop erstellt, der sich auf den Editor Quarto bezieht, nicht speziell auf Versionskontrolle.
+Zusätzlich wurden Selbstkontrollfragen entwickelt, um den Studierenden eine selbstgesteuerte Überprüfung ihres Verständnisses zu ermöglichen. 
+Diese Materialien tragen dazu bei, die Data Literacy der Studierenden zu stärken und ihre Kompetenzen im Umgang mit Versionskontrolle zu fördern.
+
+**Vorhandene Materialien:**
+
+- Buch
+
+- Quarto Workshop
+
+- Selbstkontrollfragen
+
 - Erschaffung von virtuellem open source Buch: "Version Control of Code and Data - An Introduction for Scientists"
 - Verfügbar auf https://lennartwittkuhn.com/version-control-book/
-- Zudem bereitstellung von Selbstüberprüfungsfragen.
+- Zudem bereitstellung von Selbstüberprüfungsfragen und quarto workshop.
 
 ### Falls zutreffend: Wie und wo publizieren Sie über Ihre Lehre und woran orientieren Sie sich dabei (z.B. Format, Struktur, etc.)?
 
