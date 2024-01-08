@@ -11,7 +11,7 @@ engine: knitr
 
 Ja, der Zeitplan konnte wie geplant umgesetzt werden, und es traten keine relevanten Abweichungen gemäß dem im Antrag vorgeschlagenen Zeitplan auf.
 
-https://lennartwittkuhn.com/ddlitlab-proposal/projektumsetzung.html; Ja, keine relevanten Abweichungen
+- https://lennartwittkuhn.com/ddlitlab-proposal/projektumsetzung.html; Ja, keine relevanten Abweichungen
 
 ### Konnte der Personaleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
 
@@ -42,7 +42,10 @@ Durch die Verwendung von Versionskontrollsystemen können Forscher ihre Arbeit a
 
 Insgesamt kann die Integration von Versionskontrolle in wissenschaftliche Prozesse dazu beitragen, die Qualität und Nachvollziehbarkeit von Forschungsergebnissen zu steigern.
 
-Bitte schreiben Sie hier 100-500 Wörter.)
+- Replikationskriese
+- Für weitere Verbreitung von Versionskontrolle im wiss. Kontext
+
+*Bitte schreiben Sie hier 100-500 Wörter.*
 
 ### Gab es Ziele, die (abweichend vom Projektantrag) verändert oder angepasst wurden? Bitte nennen Sie diese und führen Sie die Gründe aus.
 
@@ -52,6 +55,9 @@ Die ursprüngliche Idee, sowohl Git als auch DataLad zu behandeln, konnte aufgru
 
 Ursprünglich war zudem eine hybride Lehrform geplant, die sowohl Präsenzlehre als auch digitale Elemente einschließt. 
 Allerdings wurde entschieden, ausschließlich auf Präsenzlehre zu setzen und die hybride Variante zu verwerfen
+
+- Nur Git, nicht DataLad
+- Keine Hybridlehre
 
 ### Konnten die Ziele (z.B. in der Lehre, im Transfer, im Allgemeinen) in Ihrem Projekt erreicht werden? (kommentar zu Ja/Nein/Teilweise)
 
@@ -73,7 +79,7 @@ Insgesamt haben die erzielten Ergebnisse dazu beigetragen, das Verständnis für
 
 (Bitte berücksichtigen Sie dabei die Ausgangslage Ihres Lehrprojektes, die Umsetzung der Projektziele und die Realisierung der im Antrag dargestellten Innovationsidee.
 
-Bitte schreiben Sie hier 250-1000 Wörter.)
+*Bitte schreiben Sie hier 250-1000 Wörter.*
 
 ### Bitte skizzieren Sie Ergebnisse und Entwicklungen im Projektverlauf, die für Sie unerwartet waren. (öffentlich)
 
@@ -94,13 +100,13 @@ Des Weiteren gab es Abweichungen von der angedachten Dauer der einzelnen Themen,
 - (Vergleich erster Schedule zur endgültigen?)
 - Ergebnis: Langsamer + Weglassen von einem Programm (DataLad)
 
-(Bitte schreiben Sie hier 50-500 Wörter.)
+*Bitte schreiben Sie hier 50-500 Wörter.*
 
 ### Wie hat sich Ihre digitale und didaktische Kompetenz als Lehrperson im Rahmen der Projektförderung entwickelt? (öffentlich)
 
 - @lennart
 
-(Bitte schreiben Sie hier 100-1000 Wörter.)
+*Bitte schreiben Sie hier 100-1000 Wörter.*
 
 ### Welchen Beitrag hat Ihr Lehrprojekt zur Data Literacy Education (DLE) an der Universität Hamburg geleistet? In Bezug darauf: Welche Kompetenzen haben die Studierenden erworben? (öffentlich)
 
@@ -111,7 +117,7 @@ Diese praxisnahen Kompetenzen stärken nicht nur ihre Data Literacy, sondern ber
 
 - Umgang mit Git + GitHub im wissenschaftlichen Kontext
 
-(Bitte schreiben Sie hier 100-1000 Wörter.)
+*Bitte schreiben Sie hier 100-1000 Wörter.*
 
 ### Wird Ihre Lehrveranstaltung wiederholt? Falls ja oder teilweise, schildern Sie welche Anteile/Aspekte der Veranstaltung wiederholt werden. Falls nicht, schildern Sie den Grund, warum die Veranstaltung nicht wiederholt wird. (öffentlich)
 
@@ -134,7 +140,7 @@ Diese praxisnahen Kompetenzen stärken nicht nur ihre Data Literacy, sondern ber
 - Selbstkontrollfragen
 
 
-Bitte schreiben Sie hier 50-500 Wörter.
+*Bitte schreiben Sie hier 50-500 Wörter*
 
 ### Hätten Sie Ideen, wie die Ergebnisse Ihres Lehrprojektes in anderen Fächern oder auch fachübergreifend fruchtbar gemacht werden könnten? (öffentlich)
 
