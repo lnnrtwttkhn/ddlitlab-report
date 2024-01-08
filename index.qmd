@@ -9,55 +9,91 @@ engine: knitr
 
 ### Konnte der Zeitplan wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
 
-- Nein: Ursprünglich Zeitplan für Seminar geändert, Abweichungen von Dauer der Themen zu tatsächlich, 2 Ausfälle durch Krankheit
+Ja, der Zeitplan konnte wie geplant umgesetzt werden, und es traten keine relevanten Abweichungen gemäß dem im Antrag vorgeschlagenen Zeitplan auf.
+
+https://lennartwittkuhn.com/ddlitlab-proposal/projektumsetzung.html; Ja, keine relevanten Abweichungen
 
 ### Konnte der Personaleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
 
-- Ja?, weniger SHK eingesetzt als geplant?
+Ja, der Personaleinsatz konnte wie ursprünglich geplant umgesetzt werden. 
+Die im Projektantrag festgelegten Personalressourcen, nämlich ein wissenschaftliche:r Mitarbeiter:in E 13, Stufe 3, eine wissenschaftliche/studentische Hilfskraft und eine studentische:r Tutor:in, wurden gemäß den vorgesehenen Stellenanteilen, Einstellungszeiträumen und Aufgaben tatsächlich in das Lehrprojekt integriert.
+
+Als wissenschaftlicher Mitarbeiter fungierte der Antragssteller Dr. Wittkuhn, als Studentische Hilfskraft sowie Tutor Konrad Pagenstedt.
+
+- https://lennartwittkuhn.com/ddlitlab-proposal/projektumsetzung.html
+- Ja, konnte umgesetzt werden. Lennart + SHK + Tutor (SHK + Tutor eine Person, kein Bachelor abschluss vorhanden)
 
 ### Konnte der Sachmitteleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
 
-- Ja?
+Die Sachmittel wurden gemäß dem Plan für die Einladung der Referentin Frau MSc. Adina Wagner benutzt.
+
+- https://lennartwittkuhn.com/ddlitlab-proposal/projektumsetzung.html
+- Ja (Einladung Referentin Frau MSc. Adina Wagner )
 
 ### Was waren die Gründe für die Entwicklung Ihrer Projektidee bzw. Ihres Lehrprojektes? (öffentlich)
 
-- Versionskontrolle zu wenig im wissenschaftlichen Kontext. 
-- Kann man hier von antrag recycclen?
+Das Lehrprojekt wurde aus der Erkenntnis heraus entwickelt, dass die zunehmende Digitalisierung und Datenorientierung in vielen Disziplinen eine grundlegende Kompetenz im Umgang mit Versionskontrolle erfordert.
+Insbesondere für Psychologie-Studierende, die in ihrer Ausbildung bereits stark auf Forschungsmethodik und Statistik ausgerichtet sind, bietet die Integration von Versionskontrolle in den Lehrplan eine praxisnahe Ergänzung. 
+Die Fähigkeiten, die durch die Anwendung von Git und DataLad erworben werden, sind nicht nur für die empirische Forschung in der Psychologie von Vorteil, sondern auch in anderen Fachbereichen, in denen digitale Daten verarbeitet werden.
 
-(Wenn man in der Lehrpraxis etwas verändert und dazu eine neue Maßnahme (in diesem Fall: ein Lehrveranstaltungskonzept) entwickelt, hat das immer irgendeinen Grund. Erzählen Sie in eigenen Worten, was Sie zu Ihrer Maßnahme bewogen hat: Wie und warum sind Sie auf Ihre Maßnahme gekommen? Was waren Auslöser oder Impulse? 
+Versionskontrolle kann auch als Instrument zur Förderung von "Open Science" betrachtet werden. 
+"Open Science" bezieht sich auf den offenen und transparenten Zugang zu wissenschaftlichen Erkenntnissen, Daten und Methoden. 
+Durch die Verwendung von Versionskontrollsystemen können Forscher ihre Arbeit auf Plattformen wie GitHub teilen, wo sie von anderen eingesehen, genutzt und kollaborativ weiterentwickelt werden kann. Dies trägt dazu bei, Forschung transparenter zu gestalten und den Austausch zwischen Wissenschaftlern zu fördern.
+
+Insgesamt kann die Integration von Versionskontrolle in wissenschaftliche Prozesse dazu beitragen, die Qualität und Nachvollziehbarkeit von Forschungsergebnissen zu steigern.
 
 Bitte schreiben Sie hier 100-500 Wörter.)
 
 ### Gab es Ziele, die (abweichend vom Projektantrag) verändert oder angepasst wurden? Bitte nennen Sie diese und führen Sie die Gründe aus.
 
-- ja nur Git statt Git + DataLad aus oben genannten gründen
+Ja, es gab eine Anpassung der Ziele im Vergleich zum ursprünglichen Projektantrag. Ursprünglich war geplant, sowohl Git als auch DataLad in der Lehrveranstaltung zu behandeln. Allerdings wurde aufgrund von Zeitbeschränkungen die Entscheidung getroffen, sich ausschließlich auf Git zu konzentrieren und auf die Einbindung von DataLad zu verzichten. Der Hauptgrund für diese Anpassung lag in der begrenzten verfügbaren Zeit für die Lehrveranstaltung.
+
+Die ursprüngliche Idee, sowohl Git als auch DataLad zu behandeln, konnte aufgrund von Zeitmangel nicht umgesetzt werden, und es wurde entschieden, die Lehrinhalte zu straffen und den Fokus auf die grundlegenden Konzepte von Git zu legen. Diese Anpassung ermöglichte es, die verfügbare Zeit effizient zu nutzen und dennoch einen Beitrag zur Data Literacy der Studierenden zu leisten
+
+Ursprünglich war zudem eine hybride Lehrform geplant, die sowohl Präsenzlehre als auch digitale Elemente einschließt. 
+Allerdings wurde entschieden, ausschließlich auf Präsenzlehre zu setzen und die hybride Variante zu verwerfen
 
 ### Konnten die Ziele (z.B. in der Lehre, im Transfer, im Allgemeinen) in Ihrem Projekt erreicht werden? (kommentar zu Ja/Nein/Teilweise)
 
 - teilweise, da nur Git
+- Einführung in Git gelungen, alle Teilnehmer haben GitHub Accounts, vertraut mit Konzept der Versionskontrolle
 
 ### Welche zentralen Ergebnisse wurden Ihrer Ansicht nach mit Ihrem Lehrprojekt erzielt? (öffentlich)
 
-- Kennenlernen von Versionskontrolle im wissenshcfatlichen kontext
+- Kennenlernen von Versionskontrolle im wissenschaftlichen kontext für Teinehmer
+- Erstellen von Open Source Lernressource 
 
 (Bitte berücksichtigen Sie dabei die Ausgangslage Ihres Lehrprojektes, die Umsetzung der Projektziele und die Realisierung der im Antrag dargestellten Innovationsidee.
 
 Bitte schreiben Sie hier 250-1000 Wörter.)
 
-
 ### Bitte skizzieren Sie Ergebnisse und Entwicklungen im Projektverlauf, die für Sie unerwartet waren. (öffentlich)
+
+- Eingliederung von neuem Seminar in Uni-Struktur herausvordernd
+- Weniger Teilnehmer als erhofft
+
+- Ursprünglich Zeitplan für Seminar geändert
+- Abweichungen von angedachten Dauer der Themen zu tatsächlichen Dauer + 2 Ausfälle durch Krankheit
+- (Vergleich erster Schedule zur endgültigen?)
+- Ergebnis: Langsamer + Weglassen von einem Programm (DataLad)
 
 (Bitte schreiben Sie hier 50-500 Wörter.)
 
 ### Wie hat sich Ihre digitale und didaktische Kompetenz als Lehrperson im Rahmen der Projektförderung entwickelt? (öffentlich)
 
+- @lennart
+
 (Bitte schreiben Sie hier 100-1000 Wörter.)
 
 ### Welchen Beitrag hat Ihr Lehrprojekt zur Data Literacy Education (DLE) an der Universität Hamburg geleistet? In Bezug darauf: Welche Kompetenzen haben die Studierenden erworben? (öffentlich)
 
+- Umgang mit Git + GitHub im wissenschaftlichen Kontext
+
 (Bitte schreiben Sie hier 100-1000 Wörter.)
 
 ### Wird Ihre Lehrveranstaltung wiederholt? Falls ja oder teilweise, schildern Sie welche Anteile/Aspekte der Veranstaltung wiederholt werden. Falls nicht, schildern Sie den Grund, warum die Veranstaltung nicht wiederholt wird. (öffentlich)
+
+- Noch unklar?. @lennart
 
 (Kommentar zu Ja/teilweise/nein)
 
@@ -69,26 +105,44 @@ Bitte schreiben Sie hier 50-500 Wörter.
 
 ### Hätten Sie Ideen, wie die Ergebnisse Ihres Lehrprojektes in anderen Fächern oder auch fachübergreifend fruchtbar gemacht werden könnten? (öffentlich)
 
+- Bereitstellung der entwickleten Lernressource (Buch) für alle die Interesse haben.
+
 ### Haben Sie Daten erhoben, gewonnen oder ausgewertet, die Sie in Forschung und/oder Lehre weiterhin nutzen werden? (öffentlich)
+
+- Pseudonymisierte Ergebnisse der Selbstkontrollfragen als erhobene Daten   
+- Keine Verwendung für Forschung
 
 (kommentar zu Ja/nein/teilweise)
 
 (Sofern zutreffend: Bitte schildern Sie weitere Spezifikationen: Welche Menge an Daten? Welche Art von Daten? Aus welchen Datenquellen? etc.)
 
-
 ### Falls zutreffend: Beschreiben Sie das Lehrmaterial, welches Sie im Rahmen der Lehrveranstaltung entwickelt haben! (öffentlich)
 
+- Erschaffung von virtuellem open source Buch: "Version Control of Code and Data - An Introduction for Scientists"
+- Verfügbar auf https://lennartwittkuhn.com/version-control-book/
+- Zudem bereitstellung von Selbstüberprüfungsfragen.
 
 ### Falls zutreffend: Wie und wo publizieren Sie über Ihre Lehre und woran orientieren Sie sich dabei (z.B. Format, Struktur, etc.)?
 
+- Nicht zutreffend?, @lennart
 
 ### Falls zutreffend: Welchen Forschungsfragen sind Sie nachgegangen, was ist Ihr Erkenntnisinteresse? Auf welche Theorien beziehen Sie sich in Ihrer Forschung? (öffentlich)
 
+- Nicht zutreffend?, @lennart
+
 ### Sofern Sie bereits Lehrmaterial und/oder Forschungsbeiträge im Zusammenhang mit dem Projekt veröffentlicht haben oder auch Konferenzbeiträge/-vorträge im Zusammenhang mit ihrem Projekt existieren, listen Sie dieses bitte hier auf. Referenzieren Sie dabei möglichst im APA-Stil und geben Sie, sofern vorhanden, Verlinkungen an. (öffentlich)
+
+- https://github.com/lnnrtwttkhn/ddlitlab-presentation
+- https://github.com/lnnrtwttkhn/talk-rdm
+- https://github.com/lnnrtwttkhn/version-control-book
 
 ### Bitte geben Sie hier Verweise auf bereits eingetragene Publikationen im Portal Forschungsinformation (FIS) oder dem Forschungsdatenrepositorium (FDR) der Universität Hamburg an. (öffentlich)
 
+- nicht zutreffend
+
 ### Ihr Kommentar: Haben Sie weitere Anmerkungen, die sich nirgendwo gut unterbringen ließen, ggf. auch an das DDLitLab-Team?
+
+@lennart
 
 ## Edits
 
