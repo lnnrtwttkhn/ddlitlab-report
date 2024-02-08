@@ -3,13 +3,14 @@ title: "DDLitLab Report"
 # date:
 # date-modified:
 engine: knitr
+lang: de
 ---
 
 ## Freitextfragen:
 
 ### Konnte der Zeitplan wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
 
-Ja, der Zeitplan konnte wie geplant umgesetzt werden, und es traten keine relevanten Abweichungen gemäß dem im Antrag vorgeschlagenen Zeitplan auf.
+Ja, der allgemeine Zeitplan des Projekts konnte wie geplant umgesetzt werden, und es traten keine relevanten Abweichungen gemäß dem im Antrag vorgeschlagenen Zeitplan auf.
 
 - https://lennartwittkuhn.com/ddlitlab-proposal/projektumsetzung.html; Ja, keine relevanten Abweichungen
 
@@ -103,6 +104,19 @@ Des Weiteren gab es Abweichungen von der angedachten Dauer der einzelnen Themen,
 *Bitte schreiben Sie hier 50-500 Wörter.*
 
 ### Wie hat sich Ihre digitale und didaktische Kompetenz als Lehrperson im Rahmen der Projektförderung entwickelt? (öffentlich)
+
+Die digitale und didaktische Kompetenzen der Lehrperson konnten sich im Rahmen der Projektförderung in verschiedenen Aspekten entwickeln.
+
+- Kontext: Erstes mal universitäte Lehre und Gestalung eines ganzen Semesters mit Lehrinhalten
+- Vollständing transparente Entwicklung der Lehr-Lernressourcen mit Git / GitHub und Quarto.
+- Kollaboratives Arbeiten an Lehrmateralieren zusammen mit der Studetischen Hilfskraft und Tutor.
+Dabei wurden die Lehrinhalte direkt auf die Erstellung der Lerninhalte angewendet.
+Erweiterung der Kompetenzen im kollaborativen Arbeiten an Lehrmaterialien
+(siehe https://lennartwittkuhn.com/dra-fair-teaching/)
+
+Didaktisch
+- Erprobung didaktischer Methoden
+- Fokus auf Implementierung
 
 - @lennart
 
