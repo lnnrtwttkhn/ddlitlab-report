@@ -27,7 +27,7 @@ format:
   # see here for all html options: https://quarto.org/docs/reference/formats/html.html
   html:
     # format options:
-    theme: [cosmo, custom.scss]
+    theme: [default, custom.scss]
     anchor-sections: true
     smooth-scroll: true
     html-math-method: katex
