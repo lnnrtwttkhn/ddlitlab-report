@@ -1,1 +1,1 @@
-Sitemap: https://github.com/lnnrtwttkhn/ddlitlab-report/sitemap.xml
+Sitemap: https://lnnrtwttkhn.github.io/ddlitlab-report/sitemap.xml

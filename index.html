@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -78,18 +44,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
@@ -109,13 +82,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#edits" id="toc-edits" class="nav-link active" data-scroll-target="#edits">Edits</a>
+  <li><a href="#war-eine-besondere-ausstattung-z.b.-hard--oder-software-für-ihr-projekt-erforderlich-öffentlich-bitte-kommentieren-sie-ihre-auswahl-inwiefern-war-keine-besondere-ausstattung-erforderlich-und-welche" id="toc-war-eine-besondere-ausstattung-z.b.-hard--oder-software-für-ihr-projekt-erforderlich-öffentlich-bitte-kommentieren-sie-ihre-auswahl-inwiefern-war-keine-besondere-ausstattung-erforderlich-und-welche" class="nav-link active" data-scroll-target="#war-eine-besondere-ausstattung-z.b.-hard--oder-software-für-ihr-projekt-erforderlich-öffentlich-bitte-kommentieren-sie-ihre-auswahl-inwiefern-war-keine-besondere-ausstattung-erforderlich-und-welche">War eine besondere Ausstattung (z.B. Hard- oder Software) für Ihr Projekt erforderlich? (öffentlich) Bitte kommentieren Sie Ihre Auswahl: Inwiefern war (k)eine besondere Ausstattung erforderlich und welche?</a></li>
+  <li><a href="#konnte-der-zeitplan-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis" id="toc-konnte-der-zeitplan-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis" class="nav-link" data-scroll-target="#konnte-der-zeitplan-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis">Konnte der Zeitplan wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?</a></li>
+  <li><a href="#konnte-der-personaleinsatz-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis" id="toc-konnte-der-personaleinsatz-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis" class="nav-link" data-scroll-target="#konnte-der-personaleinsatz-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis">Konnte der Personaleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?</a></li>
+  <li><a href="#konnte-der-sachmitteleinsatz-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis" id="toc-konnte-der-sachmitteleinsatz-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis" class="nav-link" data-scroll-target="#konnte-der-sachmitteleinsatz-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis">Konnte der Sachmitteleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?</a></li>
+  <li><a href="#was-waren-die-gründe-für-die-entwicklung-ihrer-projektidee-bzw.-ihres-lehrprojektes-öffentlich" id="toc-was-waren-die-gründe-für-die-entwicklung-ihrer-projektidee-bzw.-ihres-lehrprojektes-öffentlich" class="nav-link" data-scroll-target="#was-waren-die-gründe-für-die-entwicklung-ihrer-projektidee-bzw.-ihres-lehrprojektes-öffentlich">Was waren die Gründe für die Entwicklung Ihrer Projektidee bzw. Ihres Lehrprojektes? (öffentlich)</a></li>
+  <li><a href="#gab-es-ziele-die-abweichend-vom-projektantrag-verändert-oder-angepasst-wurden-bitte-nennen-sie-diese-und-führen-sie-die-gründe-aus." id="toc-gab-es-ziele-die-abweichend-vom-projektantrag-verändert-oder-angepasst-wurden-bitte-nennen-sie-diese-und-führen-sie-die-gründe-aus." class="nav-link" data-scroll-target="#gab-es-ziele-die-abweichend-vom-projektantrag-verändert-oder-angepasst-wurden-bitte-nennen-sie-diese-und-führen-sie-die-gründe-aus.">Gab es Ziele, die (abweichend vom Projektantrag) verändert oder angepasst wurden? Bitte nennen Sie diese und führen Sie die Gründe aus.</a></li>
+  <li><a href="#konnten-die-ziele-z.b.-in-der-lehre-im-transfer-im-allgemeinen-in-ihrem-projekt-erreicht-werden-kommentar-zu-janeinteilweise" id="toc-konnten-die-ziele-z.b.-in-der-lehre-im-transfer-im-allgemeinen-in-ihrem-projekt-erreicht-werden-kommentar-zu-janeinteilweise" class="nav-link" data-scroll-target="#konnten-die-ziele-z.b.-in-der-lehre-im-transfer-im-allgemeinen-in-ihrem-projekt-erreicht-werden-kommentar-zu-janeinteilweise">Konnten die Ziele (z.B. in der Lehre, im Transfer, im Allgemeinen) in Ihrem Projekt erreicht werden? (kommentar zu Ja/Nein/Teilweise)</a></li>
+  <li><a href="#welche-zentralen-ergebnisse-wurden-ihrer-ansicht-nach-mit-ihrem-lehrprojekt-erzielt-öffentlich" id="toc-welche-zentralen-ergebnisse-wurden-ihrer-ansicht-nach-mit-ihrem-lehrprojekt-erzielt-öffentlich" class="nav-link" data-scroll-target="#welche-zentralen-ergebnisse-wurden-ihrer-ansicht-nach-mit-ihrem-lehrprojekt-erzielt-öffentlich">Welche zentralen Ergebnisse wurden Ihrer Ansicht nach mit Ihrem Lehrprojekt erzielt? (öffentlich)</a></li>
+  <li><a href="#duty-und-dle" id="toc-duty-und-dle" class="nav-link" data-scroll-target="#duty-und-dle">DUTy und DLE</a>
   <ul class="collapse">
-  <li><a href="#necessary" id="toc-necessary" class="nav-link" data-scroll-target="#necessary">Necessary</a></li>
-  <li><a href="#optional" id="toc-optional" class="nav-link" data-scroll-target="#optional">Optional</a></li>
+  <li><a href="#wie-hat-sich-ihre-digitale-und-didaktische-kompetenz-als-lehrperson-im-rahmen-der-projektförderung-entwickelt-öffentlich" id="toc-wie-hat-sich-ihre-digitale-und-didaktische-kompetenz-als-lehrperson-im-rahmen-der-projektförderung-entwickelt-öffentlich" class="nav-link" data-scroll-target="#wie-hat-sich-ihre-digitale-und-didaktische-kompetenz-als-lehrperson-im-rahmen-der-projektförderung-entwickelt-öffentlich">Wie hat sich Ihre digitale und didaktische Kompetenz als Lehrperson im Rahmen der Projektförderung entwickelt? (öffentlich)</a></li>
+  <li><a href="#welchen-beitrag-hat-ihr-lehrprojekt-zur-data-literacy-education-dle-an-der-universität-hamburg-geleistet-in-bezug-darauf-welche-kompetenzen-haben-die-studierenden-erworben-öffentlich" id="toc-welchen-beitrag-hat-ihr-lehrprojekt-zur-data-literacy-education-dle-an-der-universität-hamburg-geleistet-in-bezug-darauf-welche-kompetenzen-haben-die-studierenden-erworben-öffentlich" class="nav-link" data-scroll-target="#welchen-beitrag-hat-ihr-lehrprojekt-zur-data-literacy-education-dle-an-der-universität-hamburg-geleistet-in-bezug-darauf-welche-kompetenzen-haben-die-studierenden-erworben-öffentlich">Welchen Beitrag hat Ihr Lehrprojekt zur Data Literacy Education (DLE) an der Universität Hamburg geleistet? In Bezug darauf: Welche Kompetenzen haben die Studierenden erworben? (öffentlich)</a></li>
   </ul></li>
-  <li><a href="#publish-to-github-pages" id="toc-publish-to-github-pages" class="nav-link" data-scroll-target="#publish-to-github-pages">Publish to GitHub Pages</a></li>
-  <li><a href="#website-analytics" id="toc-website-analytics" class="nav-link" data-scroll-target="#website-analytics">Website Analytics</a></li>
+  <li><a href="#ausblick-und-nachhaltigkeit" id="toc-ausblick-und-nachhaltigkeit" class="nav-link" data-scroll-target="#ausblick-und-nachhaltigkeit">Ausblick und Nachhaltigkeit</a>
+  <ul class="collapse">
+  <li><a href="#wird-ihre-lehrveranstaltung-wiederholt-falls-ja-oder-teilweise-schildern-sie-welche-anteileaspekte-der-veranstaltung-wiederholt-werden.-falls-nicht-schildern-sie-den-grund-warum-die-veranstaltung-nicht-wiederholt-wird.-öffentlich" id="toc-wird-ihre-lehrveranstaltung-wiederholt-falls-ja-oder-teilweise-schildern-sie-welche-anteileaspekte-der-veranstaltung-wiederholt-werden.-falls-nicht-schildern-sie-den-grund-warum-die-veranstaltung-nicht-wiederholt-wird.-öffentlich" class="nav-link" data-scroll-target="#wird-ihre-lehrveranstaltung-wiederholt-falls-ja-oder-teilweise-schildern-sie-welche-anteileaspekte-der-veranstaltung-wiederholt-werden.-falls-nicht-schildern-sie-den-grund-warum-die-veranstaltung-nicht-wiederholt-wird.-öffentlich">Wird Ihre Lehrveranstaltung wiederholt? Falls ja oder teilweise, schildern Sie welche Anteile/Aspekte der Veranstaltung wiederholt werden. Falls nicht, schildern Sie den Grund, warum die Veranstaltung nicht wiederholt wird. (öffentlich)</a></li>
+  <li><a href="#welche-aspekte-inhalte-formate-materialien-etc.-ihres-lehrprojektes-werden-in-zukünftige-lehrveranstaltungen-einfließen-öffentlich" id="toc-welche-aspekte-inhalte-formate-materialien-etc.-ihres-lehrprojektes-werden-in-zukünftige-lehrveranstaltungen-einfließen-öffentlich" class="nav-link" data-scroll-target="#welche-aspekte-inhalte-formate-materialien-etc.-ihres-lehrprojektes-werden-in-zukünftige-lehrveranstaltungen-einfließen-öffentlich">Welche Aspekte (Inhalte, Formate, Materialien, etc.) Ihres Lehrprojektes werden in zukünftige Lehrveranstaltungen einfließen? (öffentlich)</a></li>
+  <li><a href="#hätten-sie-ideen-wie-die-ergebnisse-ihres-lehrprojektes-in-anderen-fächern-oder-auch-fachübergreifend-fruchtbar-gemacht-werden-könnten-öffentlich" id="toc-hätten-sie-ideen-wie-die-ergebnisse-ihres-lehrprojektes-in-anderen-fächern-oder-auch-fachübergreifend-fruchtbar-gemacht-werden-könnten-öffentlich" class="nav-link" data-scroll-target="#hätten-sie-ideen-wie-die-ergebnisse-ihres-lehrprojektes-in-anderen-fächern-oder-auch-fachübergreifend-fruchtbar-gemacht-werden-könnten-öffentlich">Hätten Sie Ideen, wie die Ergebnisse Ihres Lehrprojektes <em>in anderen Fächern</em> oder auch <em>fachübergreifend</em> fruchtbar gemacht werden könnten? (öffentlich)</a></li>
+  <li><a href="#haben-sie-daten-erhoben-gewonnen-oder-ausgewertet-die-sie-in-forschung-undoder-lehre-weiterhin-nutzen-werden-öffentlich" id="toc-haben-sie-daten-erhoben-gewonnen-oder-ausgewertet-die-sie-in-forschung-undoder-lehre-weiterhin-nutzen-werden-öffentlich" class="nav-link" data-scroll-target="#haben-sie-daten-erhoben-gewonnen-oder-ausgewertet-die-sie-in-forschung-undoder-lehre-weiterhin-nutzen-werden-öffentlich">Haben Sie Daten erhoben, gewonnen oder ausgewertet, die Sie in Forschung und/oder Lehre weiterhin nutzen werden? (öffentlich)</a></li>
+  </ul></li>
+  <li><a href="#materialentwicklung-und-publikationen" id="toc-materialentwicklung-und-publikationen" class="nav-link" data-scroll-target="#materialentwicklung-und-publikationen">Materialentwicklung und Publikationen</a>
+  <ul class="collapse">
+  <li><a href="#haben-sie-lehrmaterialien-im-rahmen-ihres-projektes-entwickelt-öffentlich" id="toc-haben-sie-lehrmaterialien-im-rahmen-ihres-projektes-entwickelt-öffentlich" class="nav-link" data-scroll-target="#haben-sie-lehrmaterialien-im-rahmen-ihres-projektes-entwickelt-öffentlich">Haben Sie Lehrmaterialien im Rahmen Ihres Projektes entwickelt? (öffentlich)</a></li>
+  <li><a href="#falls-zutreffend-beschreiben-sie-das-lehrmaterial-welches-sie-im-rahmen-der-lehrveranstaltung-entwickelt-haben-öffentlich" id="toc-falls-zutreffend-beschreiben-sie-das-lehrmaterial-welches-sie-im-rahmen-der-lehrveranstaltung-entwickelt-haben-öffentlich" class="nav-link" data-scroll-target="#falls-zutreffend-beschreiben-sie-das-lehrmaterial-welches-sie-im-rahmen-der-lehrveranstaltung-entwickelt-haben-öffentlich">Falls zutreffend: Beschreiben Sie das Lehrmaterial, welches Sie im Rahmen der Lehrveranstaltung entwickelt haben! (öffentlich)</a></li>
+  <li><a href="#falls-zutreffend-wie-und-wo-publizieren-sie-über-ihre-lehre-und-woran-orientieren-sie-sich-dabei-z.b.-format-struktur-etc." id="toc-falls-zutreffend-wie-und-wo-publizieren-sie-über-ihre-lehre-und-woran-orientieren-sie-sich-dabei-z.b.-format-struktur-etc." class="nav-link" data-scroll-target="#falls-zutreffend-wie-und-wo-publizieren-sie-über-ihre-lehre-und-woran-orientieren-sie-sich-dabei-z.b.-format-struktur-etc.">Falls zutreffend: <em>Wie</em> und <em>wo</em> publizieren Sie über Ihre Lehre und woran orientieren Sie sich dabei (z.B. Format, Struktur, etc.)?</a></li>
+  <li><a href="#haben-sie-begleitend-oder-ergänzend-zu-ihrem-projekt-geforscht-bzw.-steht-ein-forschungsvorhaben-in-zusammenhang-mit-ihrem-lehrprojekt-öffentlich" id="toc-haben-sie-begleitend-oder-ergänzend-zu-ihrem-projekt-geforscht-bzw.-steht-ein-forschungsvorhaben-in-zusammenhang-mit-ihrem-lehrprojekt-öffentlich" class="nav-link" data-scroll-target="#haben-sie-begleitend-oder-ergänzend-zu-ihrem-projekt-geforscht-bzw.-steht-ein-forschungsvorhaben-in-zusammenhang-mit-ihrem-lehrprojekt-öffentlich">Haben Sie begleitend oder ergänzend zu Ihrem Projekt geforscht bzw. steht ein Forschungsvorhaben in Zusammenhang mit Ihrem Lehrprojekt? (öffentlich)</a></li>
+  <li><a href="#falls-zutreffend-welchen-forschungsfragen-sind-sie-nachgegangen-was-ist-ihr-erkenntnisinteresse-auf-welche-theorien-beziehen-sie-sich-in-ihrer-forschung-öffentlich" id="toc-falls-zutreffend-welchen-forschungsfragen-sind-sie-nachgegangen-was-ist-ihr-erkenntnisinteresse-auf-welche-theorien-beziehen-sie-sich-in-ihrer-forschung-öffentlich" class="nav-link" data-scroll-target="#falls-zutreffend-welchen-forschungsfragen-sind-sie-nachgegangen-was-ist-ihr-erkenntnisinteresse-auf-welche-theorien-beziehen-sie-sich-in-ihrer-forschung-öffentlich">Falls zutreffend: Welchen Forschungsfragen sind Sie nachgegangen, was ist Ihr Erkenntnisinteresse? Auf welche Theorien beziehen Sie sich in Ihrer Forschung? (öffentlich)</a></li>
+  <li><a href="#sofern-sie-bereits-lehrmaterial-undoder-forschungsbeiträge-im-zusammenhang-mit-dem-projekt-veröffentlicht-haben-oder-auch-konferenzbeiträge-vorträge-im-zusammenhang-mit-ihrem-projekt-existieren-listen-sie-dieses-bitte-hier-auf.-referenzieren-sie-dabei-möglichst-im-apa-stil-und-geben-sie-sofern-vorhanden-verlinkungen-an.-öffentlich" id="toc-sofern-sie-bereits-lehrmaterial-undoder-forschungsbeiträge-im-zusammenhang-mit-dem-projekt-veröffentlicht-haben-oder-auch-konferenzbeiträge-vorträge-im-zusammenhang-mit-ihrem-projekt-existieren-listen-sie-dieses-bitte-hier-auf.-referenzieren-sie-dabei-möglichst-im-apa-stil-und-geben-sie-sofern-vorhanden-verlinkungen-an.-öffentlich" class="nav-link" data-scroll-target="#sofern-sie-bereits-lehrmaterial-undoder-forschungsbeiträge-im-zusammenhang-mit-dem-projekt-veröffentlicht-haben-oder-auch-konferenzbeiträge-vorträge-im-zusammenhang-mit-ihrem-projekt-existieren-listen-sie-dieses-bitte-hier-auf.-referenzieren-sie-dabei-möglichst-im-apa-stil-und-geben-sie-sofern-vorhanden-verlinkungen-an.-öffentlich">Sofern Sie bereits Lehrmaterial und/oder Forschungsbeiträge im Zusammenhang mit dem Projekt veröffentlicht haben oder auch Konferenzbeiträge/-vorträge im Zusammenhang mit ihrem Projekt existieren, listen Sie dieses bitte hier auf. Referenzieren Sie dabei möglichst im APA-Stil und geben Sie, sofern vorhanden, Verlinkungen an. (öffentlich)</a></li>
+  <li><a href="#bitte-geben-sie-hier-verweise-auf-bereits-eingetragene-publikationen-im-portal-forschungsinformation-fis-oder-dem-forschungsdatenrepositorium-fdr-der-universität-hamburg-an.-öffentlich" id="toc-bitte-geben-sie-hier-verweise-auf-bereits-eingetragene-publikationen-im-portal-forschungsinformation-fis-oder-dem-forschungsdatenrepositorium-fdr-der-universität-hamburg-an.-öffentlich" class="nav-link" data-scroll-target="#bitte-geben-sie-hier-verweise-auf-bereits-eingetragene-publikationen-im-portal-forschungsinformation-fis-oder-dem-forschungsdatenrepositorium-fdr-der-universität-hamburg-an.-öffentlich">Bitte geben Sie hier Verweise auf bereits eingetragene Publikationen im Portal Forschungsinformation (FIS) oder dem Forschungsdatenrepositorium (FDR) der Universität Hamburg an. (öffentlich)</a></li>
+  </ul></li>
+  <li><a href="#abschluss" id="toc-abschluss" class="nav-link" data-scroll-target="#abschluss">Abschluss</a>
+  <ul class="collapse">
+  <li><a href="#ihr-kommentar-haben-sie-weitere-anmerkungen-die-sich-nirgendwo-gut-unterbringen-ließen-ggf.-auch-an-das-ddlitlab-team" id="toc-ihr-kommentar-haben-sie-weitere-anmerkungen-die-sich-nirgendwo-gut-unterbringen-ließen-ggf.-auch-an-das-ddlitlab-team" class="nav-link" data-scroll-target="#ihr-kommentar-haben-sie-weitere-anmerkungen-die-sich-nirgendwo-gut-unterbringen-ließen-ggf.-auch-an-das-ddlitlab-team">Ihr Kommentar: Haben Sie weitere Anmerkungen, die sich nirgendwo gut unterbringen ließen, ggf. auch an das DDLitLab-Team?</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -124,25 +124,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">DDLitLab Report</h1><button type="button" class="btn code-tools-button dropdown-toggle" id="quarto-code-tools-menu" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi"></i> Code</button><ul class="dropdown-menu dropdown-menu-end" aria-labelelledby="quarto-code-tools-menu"><li><a id="quarto-show-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Show All Code</a></li><li><a id="quarto-hide-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Hide All Code</a></li><li><hr class="dropdown-divider"></li><li><a id="quarto-view-source" class="dropdown-item" href="javascript:void(0)" role="button" data-quarto-source-url="https://github.com/lnnrtwttkhn/quarto-article">View Source</a></li></ul></div></div>
+<div class="quarto-title-block"><div><h1 class="title">DDLitLab Report</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source" data-quarto-source-url="https://github.com/lnnrtwttkhn/ddlitlab-report"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
 <div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Author</div>
-  <div class="quarto-title-meta-heading">Affiliations</div>
+  <div class="quarto-title-meta-heading">Autor:in</div>
+  <div class="quarto-title-meta-heading">Zugehörigkeiten</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author"><a href="https://lennartwittkuhn.com/">Lennart Wittkuhn</a> <a href="https://orcid.org/0000-0003-2966-6888" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+    <p class="author"><a href="https://lennartwittkuhn.com/">Dr.&nbsp;Lennart Wittkuhn</a> <a href="mailto:lennart.wittkuhn@uni-hamburg.de" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-2966-6888" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
   </div>
-    <div class="quarto-title-meta-contents">
+  <div class="quarto-title-meta-contents">
         <p class="affiliation">
             <a href="https://www.psy.uni-hamburg.de/en.html">
             Institute of Psychology, University of Hamburg, Germany
             </a>
           </p>
       </div>
-    </div>
+  </div>
 
 <div class="quarto-title-meta">
 
@@ -153,55 +153,264 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   
 <div>
   <div class="abstract">
-    <div class="abstract-title">Abstract</div>
+    <div class="block-title">Abstract</div>
     This is the abstract.
   </div>
 </div>
 
+
 </header>
 
-<section id="edits" class="level2">
-<h2 class="anchored" data-anchor-id="edits">Edits</h2>
-<section id="necessary" class="level3">
-<h3 class="anchored" data-anchor-id="necessary">Necessary</h3>
-<ol type="1">
-<li>Edit the name of the R Project and <code>.Rproj</code> file</li>
-<li>Edit the article title and file name.</li>
-<li>Edit the URL for website analytics in <a href="plausible.html"><code>plausible.html</code></a></li>
-</ol>
+
+<section id="war-eine-besondere-ausstattung-z.b.-hard--oder-software-für-ihr-projekt-erforderlich-öffentlich-bitte-kommentieren-sie-ihre-auswahl-inwiefern-war-keine-besondere-ausstattung-erforderlich-und-welche" class="level3">
+<h3 class="anchored" data-anchor-id="war-eine-besondere-ausstattung-z.b.-hard--oder-software-für-ihr-projekt-erforderlich-öffentlich-bitte-kommentieren-sie-ihre-auswahl-inwiefern-war-keine-besondere-ausstattung-erforderlich-und-welche">War eine besondere Ausstattung (z.B. Hard- oder Software) für Ihr Projekt erforderlich? (öffentlich) Bitte kommentieren Sie Ihre Auswahl: Inwiefern war (k)eine besondere Ausstattung erforderlich und welche?</h3>
+<p>Für das Projekt war keine besondere Hardware erforderlich, jedoch besondere Software. Um effektives kollaboratives Arbeiten an den Lernressourcen zu ermöglichen, wurde das kostenlose open-source Versionskontrollsystem Git (<a href="https://git-scm.com/" class="uri">https://git-scm.com/</a>) verwendet, das auch Lerninhalt des Projekts war. Alle entwickelten Materialien wurden über die Plattform GitHub (<a href="https://github.com/" class="uri">https://github.com/</a>) öffentlich geteilt. Es wäre begrüßenswert gewesen, statt GitHub die GitLab-Instanz der Universität Hamburg zu verwenden. Allerdings wäre die standardmäßige Quotierung auf 10 Projekte pro Nutzer und die Einschränkung der Funktion GitLab Pages zu retsirktiv für das Projekt gewesen. Für die Erstellung aller Lernressourcen wurde die kostenlose open-source Software Quarto (<a href="https://quarto.org/" class="uri">https://quarto.org/</a>) verwendet. Damit wurden die Kurswebsite und alle Lehr- und Lernmaterialien erstellt. Um das Nutzerverhalten auf den Projektwebsites zu untersuchen, wurde die open-source Website-Analytik Software Plausible (<a href="https://plausible.io/" class="uri">https://plausible.io/</a>) verwendet.</p>
 </section>
-<section id="optional" class="level3">
-<h3 class="anchored" data-anchor-id="optional">Optional</h3>
-<ol type="1">
-<li>Edit the copyright</li>
-<li>Edit the license</li>
-</ol>
+<section id="konnte-der-zeitplan-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis" class="level3">
+<h3 class="anchored" data-anchor-id="konnte-der-zeitplan-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis">Konnte der Zeitplan wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?</h3>
+<p>Ja, der allgemeine Zeitplan des Projekts konnte wie geplant umgesetzt werden. Es traten keine relevanten Abweichungen von dem im Antrag angegebenen Zeitplan auf. Der Zeitplan kann hier eingesehen werden: <a href="https://lennartwittkuhn.com/ddlitlab-proposal/projektumsetzung.html" class="uri">https://lennartwittkuhn.com/ddlitlab-proposal/projektumsetzung.html</a>. Der Zeitplan des Kurses hingegen wurde im Verlauf des Semesters mehrmals angepasst, um flexibel auf die Lernbedarfe der Studierenden zu reagieren.</p>
 </section>
+<section id="konnte-der-personaleinsatz-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis" class="level3">
+<h3 class="anchored" data-anchor-id="konnte-der-personaleinsatz-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis">Konnte der Personaleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?</h3>
+<p>Ja, der Personaleinsatz konnte wie ursprünglich geplant umgesetzt werden. Die im Projektantrag festgelegten Personalressourcen, nämlich ein:e wissenschaftliche:r Mitarbeiter:in E 13, Stufe 3, eine wissenschaftliche/studentische Hilfskraft und eine studentische:r Tutor:in, wurden gemäß den vorgesehenen Stellenanteilen, Einstellungszeiträumen und Aufgaben tatsächlich in das Lehrprojekt integriert. Durch eine Fehlkalkulation der benötigten Personalressourcen im Projektantrag hätten Mittel für eine weitere wissenschaftliche/studentische Hilfskraft bereit gestanden. Eine entsprechende Stelle wurde ausgeschrieben, konnte aber nicht geeignet besetzt werden. Ingesamt war der Personaleinsatz im Projekt sinnvoll und adäquat.</p>
 </section>
-<section id="publish-to-github-pages" class="level2">
-<h2 class="anchored" data-anchor-id="publish-to-github-pages">Publish to GitHub Pages</h2>
-<p>For details, see <a href="https://quarto.org/docs/publishing/github-pages.html">this chapter in the Quarto documentation</a>.</p>
-<div class="cell">
-<details open="">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">rm</span> <span class="at">-r</span> docs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
+<section id="konnte-der-sachmitteleinsatz-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis" class="level3">
+<h3 class="anchored" data-anchor-id="konnte-der-sachmitteleinsatz-wie-geplant-umgesetzt-werden-falls-nein-welche-abweichungen-gab-es-und-warum-mit-welchem-ergebnis">Konnte der Sachmitteleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?</h3>
+<p>Nein, die Sachmittel konnten nicht wie geplant umgesetzt werden. Der Projektplan sah Sachmittel für die Einladung einer Referentin, Dr.&nbsp;Adina Wagner, vor. Aufgrund eines Bahnstreiks musste der geplante Vortrag virtuell gehalten werden und die für den Vortrag eingeplanten Sachmittel wurden nicht in Anspruch genommen. Ein ungeplanter Sachmitteleinsatz war eine Lizenz für Website-Analytics mit Plausible (<a href="https://plausible.io/" class="uri">https://plausible.io/</a>) für den Projektzeitraum.</p>
+</section>
+<section id="was-waren-die-gründe-für-die-entwicklung-ihrer-projektidee-bzw.-ihres-lehrprojektes-öffentlich" class="level3">
+<h3 class="anchored" data-anchor-id="was-waren-die-gründe-für-die-entwicklung-ihrer-projektidee-bzw.-ihres-lehrprojektes-öffentlich">Was waren die Gründe für die Entwicklung Ihrer Projektidee bzw. Ihres Lehrprojektes? (öffentlich)</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div class="cell">
-<details open="">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">quarto</span> publish gh-pages</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
+<div class="callout-title-container flex-fill">
+Hinweis
 </div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Wenn man in der Lehrpraxis etwas verändert und dazu eine neue Maßnahme (in diesem Fall: ein Lehrveranstaltungskonzept) entwickelt, hat das immer irgendeinen Grund. Erzählen Sie in eigenen Worten, was Sie zu Ihrer Maßnahme bewogen hat: Wie und warum sind Sie auf Ihre Maßnahme gekommen? Was waren Auslöser oder Impulse? Bitte schreiben Sie hier 100-500 Wörter.</p>
+</div>
+</div>
+<p>Die digitalen Objekte auf unseren Computern sind in einem ständigen Wandel. Insbondere in der Wissenschaft werden Manuskripte, Programmiercode und Forschungsdaten über lange Zeiträume kontinuierlich und kollaborativ verändert. Viele wissenschaftliche Erkenntnisse basieren auf der Analyse von quantitativen Daten mithilfe von Programmiercode. Daher ist die systematische Dokumentation der Evolution digitaler Objekte eine essentielle Grundlage für reproduzierbare und transparente Wissenschaft sowie effektive und effiziente Zusammenarbeit. Obwohl vor allem Daten und Code integrale Bestandteile ihrer Arbeit sind, gehen Forschende mit digitalen Objekten auf ihren Computern oft chaotisch um. Es ist nicht ungewöhnlich, dass Forschende sich fragen: “Welche Version meiner Daten und meines Codes habe ich verwendet, um dieses Ergebnis zu erhalten?” oder “Ich habe einen Fehler in meinem Code gefunden. Seit wann ist er da?” und “Dieser Code hat früher funktioniert! Was habe ich geändert?”. Dies beeinträchtigt nicht nur die Reproduzierbarkeit und Vertrauenswürdigkeit der Forschungsarbeit, sondern führt auch häufig zu Frustration, Zeitverschwendung und schlimmstenfalls zum Verlust mühsam aufgebauter Arbeit. Die gute Nachricht ist, dass Forschende von Praktiken und Werkzeugen aus anderen Disziplinen lernen können, insbesondere aus dem Bereich der Softwareentwicklung, die die kollaborative Arbeit an digitalen Objekten wie Programmiercode erheblich professionalisiert haben. Das Herzstück dieses Toolkits ist die freie und quelloffene Software Git (<a href="https://git-scm.com/" class="uri">https://git-scm.com/</a>), ein sogenanntes Versionskontrollsystem, das es ermöglicht, die Entwicklung digitaler Objekte auf Computern zu verfolgen und zu organisieren und sie über Plattformen wie GitHub (<a href="https://github.com/" class="uri">https://github.com/</a>) zu teilen. In diesem Seminar mit praktischen Übungen lernten die Teilnehmenden, wie sie ihre Arbeit mit Git und GitHub verfolgen, organisieren und teilen können.</p>
 </section>
-<section id="website-analytics" class="level2">
-<h2 class="anchored" data-anchor-id="website-analytics">Website Analytics</h2>
-<p>This website uses <a href="https://plausible.io/">Plausible</a> for website analytics. Plausible is an “intuitive, lightweight and open source web analytics”, does not use cookies and is fully compliant with GDPR, CCPA and PECR. If you use this template, make sure to modify the URL in <a href="plausible.html"><code>plausible.html</code></a>.</p>
+<section id="gab-es-ziele-die-abweichend-vom-projektantrag-verändert-oder-angepasst-wurden-bitte-nennen-sie-diese-und-führen-sie-die-gründe-aus." class="level3">
+<h3 class="anchored" data-anchor-id="gab-es-ziele-die-abweichend-vom-projektantrag-verändert-oder-angepasst-wurden-bitte-nennen-sie-diese-und-führen-sie-die-gründe-aus.">Gab es Ziele, die (abweichend vom Projektantrag) verändert oder angepasst wurden? Bitte nennen Sie diese und führen Sie die Gründe aus.</h3>
+<p>Ja, es gab eine Anpassung der Ziele im Vergleich zum ursprünglichen Projektantrag. Ursprünglich war geplant, sowohl Git als auch DataLad in der Lehrveranstaltung zu behandeln. Allerdings wurde aufgrund von Zeitbeschränkungen die Entscheidung getroffen, sich ausschließlich auf Git zu konzentrieren und auf die Einbindung von DataLad zu verzichten. Der Hauptgrund für diese Anpassung lag in der begrenzten verfügbaren Zeit für die Lehrveranstaltung. Ursprünglich war zudem eine hybride Lehrform geplant, die sowohl Präsenzlehre als auch digitale Elemente einschließt. Allerdings wurde entschieden, ausschließlich auf Präsenzlehre zu setzen und die hybride Variante zu verwerfen.</p>
+</section>
+<section id="konnten-die-ziele-z.b.-in-der-lehre-im-transfer-im-allgemeinen-in-ihrem-projekt-erreicht-werden-kommentar-zu-janeinteilweise" class="level3">
+<h3 class="anchored" data-anchor-id="konnten-die-ziele-z.b.-in-der-lehre-im-transfer-im-allgemeinen-in-ihrem-projekt-erreicht-werden-kommentar-zu-janeinteilweise">Konnten die Ziele (z.B. in der Lehre, im Transfer, im Allgemeinen) in Ihrem Projekt erreicht werden? (kommentar zu Ja/Nein/Teilweise)</h3>
+<p>Teilweise. Das Ziel, eine Einführung in Git zu geben, wurde erfolgreich erreicht. Alle Teilnehmenden haben nun GitHub-Accounts und sind mit dem Konzept der Versionskontrolle vertraut. Jedoch wurde nur Git behandelt, und die ursprünglich geplante Einbindung von DataLad konnte aufgrund von Zeitbeschränkungen nicht umgesetzt werden. Daher wurde nur ein Teil der ursprünglich geplanten Ziele erreicht.</p>
+</section>
+<section id="welche-zentralen-ergebnisse-wurden-ihrer-ansicht-nach-mit-ihrem-lehrprojekt-erzielt-öffentlich" class="level3">
+<h3 class="anchored" data-anchor-id="welche-zentralen-ergebnisse-wurden-ihrer-ansicht-nach-mit-ihrem-lehrprojekt-erzielt-öffentlich">Welche zentralen Ergebnisse wurden Ihrer Ansicht nach mit Ihrem Lehrprojekt erzielt? (öffentlich)</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Bitte berücksichtigen Sie dabei die Ausgangslage Ihres Lehrprojektes, die Umsetzung der Projektziele und die Realisierung der im Antrag dargestellten Innovationsidee. Bitte schreiben Sie hier 250-1000 Wörter.</p>
+</div>
+</div>
+<p>Als Hauptergebnis des Lehrprojekts haben die Kursteilnehmenden haben die Möglichkeit erhalten, Versionskontrolle im wissenschaftlichen Kontext kennenzulernen, insbesondere durch die praxisorientierte Anwendung von Git. Durch praktische Übungen und die Nutzung von Plattformen wie GitHub haben sie fundierte Kenntnisse darüber erworben, wie Veränderungen in digitalen Objekten dokumentiert und nachvollzogen werden können.</p>
+<p>Ein weiteres bedeutsames Ergebnis des Lehrprojekts ist die Schaffung einer Open-Source-Lernressource (<a href="https://lennartwittkuhn.com/version-control-book/" class="uri">https://lennartwittkuhn.com/version-control-book/</a>). Diese Ressource steht nicht nur den Teilnehmern des Projekts zur Verfügung, sondern auch der breiten Öffentlichkeit. Sie fungiert als Leitfaden für die effektive Nutzung von Git im wissenschaftlichen Umfeld. Die Bereitstellung von Open-Source-Lernmaterialien trägt dazu bei, die Verbreitung von Wissen über Versionskontrolle zu fördern und unterstützt eine offene und transparente wissenschaftliche Praxis.</p>
+<p>Als drittes Ergebnis konnte mit dem Lehrprojekt eine innovative Arbeitsweise bei der Erstellung der Lehr-Lern-Ressourcen erfolgreich pilotiert werden. Jegliche im Rahmen des Lehrprojekts entstandenen Materialien, Resourcen oder Ideen wurden transparent, zugänglich und öffentlich auf GitHub entwickelt. Damit wurden Prinzipien offener und reproduzierbarer Wissenschaft erfolgreich auf die Entwicklung von Lehrmaterialien übertragen.</p>
+<p>Insgesamt haben die erzielten Ergebnisse dazu beigetragen, das Verständnis für Versionskontrolle zu vertiefen und gleichzeitig wertvolle Ressourcen für die Gemeinschaft zu schaffen. Dies trägt nicht nur zur Data Literacy der Teilnehmenden bei, sondern fördert auch die Prinzipien von Offenheit und Zusammenarbeit im wissenschaftlichen Umfeld.</p>
+<section id="bitte-skizzieren-sie-ergebnisse-und-entwicklungen-im-projektverlauf-die-für-sie-unerwartet-waren.-öffentlich" class="level4">
+<h4 class="anchored" data-anchor-id="bitte-skizzieren-sie-ergebnisse-und-entwicklungen-im-projektverlauf-die-für-sie-unerwartet-waren.-öffentlich">Bitte skizzieren Sie Ergebnisse und Entwicklungen im Projektverlauf, die für Sie <strong>unerwartet</strong> waren. (öffentlich)</h4>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Bitte schreiben Sie hier 50-500 Wörter.</p>
+</div>
+</div>
+<p>Im Verlauf des Lehrprojekts traten verschiedene Ergebnisse und Entwicklungen auf, die teilweise unerwartet waren und Einfluss auf den Projektverlauf hatten.</p>
+<p>Eine unerwartete Herausforderung war die Eingliederung des neuen Seminars in das existierende Curriculum. Die organisatorischen Anpassungen und die Abstimmung mit den bestehenden Strukturen erwiesen sich als herausfordernd. Dies unterstreicht die Bedeutung einer frühzeitigen Planung und Koordination, um die Integration neuer Lehrveranstaltungen reibungsloser zu gestalten.</p>
+<p>Ein weiterer Punkt, der sich anders entwickelte als erwartet, war die Teilnehmerzahl, die geringer ausfiel als erhofft. Dies könnte auf verschiedene Gründe zurückzuführen sein, wie z. B. mangelnde Bekanntheit des neuen Seminars oder mögliche Überschneidungen mit anderen Veranstaltungen. Die Identifikation dieser Faktoren könnte in Zukunft helfen, eine höhere Zahl an Teilnehmenden zu gewährleisten.</p>
+<p>Des Weiteren gab es Abweichungen von der angedachten Dauer der einzelnen Themen, und zwei Ausfälle aufgrund von Krankheit beeinträchtigten den ursprünglich geplanten Ablauf. Solche unvorhergesehenen Ereignisse sind in der Lehre nicht ungewöhnlich und erfordern eine flexible Anpassung, um die Qualität der Vermittlung zu gewährleisten.</p>
+</section>
+</section>
+<section id="duty-und-dle" class="level2">
+<h2 class="anchored" data-anchor-id="duty-und-dle">DUTy und DLE</h2>
+<section id="wie-hat-sich-ihre-digitale-und-didaktische-kompetenz-als-lehrperson-im-rahmen-der-projektförderung-entwickelt-öffentlich" class="level3">
+<h3 class="anchored" data-anchor-id="wie-hat-sich-ihre-digitale-und-didaktische-kompetenz-als-lehrperson-im-rahmen-der-projektförderung-entwickelt-öffentlich">Wie hat sich Ihre digitale und didaktische Kompetenz als Lehrperson im Rahmen der Projektförderung entwickelt? (öffentlich)</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Hinweis: Sofern mehrere Personen am Lehrprojekt beteiligt waren, schildern Sie hier bitte möglichst viele Perspektiven! Bitte schreiben Sie hier 100-1000 Wörter.</p>
+</div>
+</div>
+<p>Die digitalen und didaktischen Kompetenzen der Lehrpersonen konnten sich im Rahmen der Projektförderung in verschiedenen Aspekten entwickeln. Zum Hintergrund ist anzumerken, dass dies der erste Lehrkontext für die primäre Lehrperson (Dr.&nbsp;Lennart Wittkuhn) war, in dem Lehrinhalte im Rahmen universitärer Lehre für ein ganzes Semester gestaltet wurden.</p>
+<p>Zentrales Element der digitalen Kompetenzentwickung war die vollständige transparente, öffentliche und kollaborative Entwicklung von Lehrresourcen mit Git und GitHub. Von der Konzeption bis zum Abschlussbericht wurden alle Elemente des Lehrprojekts in kollaborativer Zusammenarbeit zwischen Lehrperson, studentischer Hilfskraft und Tutor erstellt. Dabei wurden die Lehrinhalte (Versionskontrolle von Code und Daten mit Git und GitHub) auf die Erstellung der Lehrinhalte angewendet. Dieser Ansatz verfolgt gute wissenschaftliche Prinzipien von Transparenz, Offenheit und Reproduzierbarkeit auch bei der Erstellung von Lehrmaterialien (siehe auch <a href="https://lennartwittkuhn.com/dra-fair-teaching/" class="uri">https://lennartwittkuhn.com/dra-fair-teaching/</a>).</p>
+<p>Auch im Bereich didaktischer Fähigkeiten konnte das Lehrprojekt zu der Kompetenzentwicklung der Lehrperson beitragen. Im Rahmen des Lehrprojekts wurden verschiedene didaktische Methoden erprobt: von Partner- und Gruppenarbeiten, über Quizzes bis zu Demonstrationen und Übungen. Ein bewusster Fokus war dabei stets, viel Zeit und Raum für Implementierung zu schaffen, bei der die Teilnehmenden anhand konkreter Übungen und Beispiele das Gelernte zur Anwendung bringen konnten.</p>
+</section>
+<section id="welchen-beitrag-hat-ihr-lehrprojekt-zur-data-literacy-education-dle-an-der-universität-hamburg-geleistet-in-bezug-darauf-welche-kompetenzen-haben-die-studierenden-erworben-öffentlich" class="level3">
+<h3 class="anchored" data-anchor-id="welchen-beitrag-hat-ihr-lehrprojekt-zur-data-literacy-education-dle-an-der-universität-hamburg-geleistet-in-bezug-darauf-welche-kompetenzen-haben-die-studierenden-erworben-öffentlich">Welchen Beitrag hat Ihr Lehrprojekt zur Data Literacy Education (DLE) an der Universität Hamburg geleistet? In Bezug darauf: Welche Kompetenzen haben die Studierenden erworben? (öffentlich)</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Bitte schreiben Sie hier 100-1000 Wörter.</p>
+</div>
+</div>
+<p>Das Lehrprojekt hat zur Data Literacy Education (DLE) an der Universität Hamburg beigetragen, indem es den Studierenden essenzielle Kompetenzen im Umgang mit Git und GitHub im wissenschaftlichen Kontext vermittelt hat. Die erworbenen Fähigkeiten ermöglichen den Studierenden präzise Dokumentation von Änderungen in digitalen Objekten, fördern die Zusammenarbeit durch paralleles Arbeiten an denselben Dateien und unterstützen die Transparenz in der Forschung. Die Studierenden haben grundlegende Techniken der Versionskontrolle erlernt, darunter das Revidieren von Änderungen, den Vergleich von Versionen und die Wiederherstellung früherer Zustände von Code und Daten. Diese praxisnahen Kompetenzen stärken nicht nur ihre Data Literacy, sondern bereiten sie auch auf datengetriebene Herausforderungen in verschiedenen beruflichen Kontexten vor.</p>
+</section>
+</section>
+<section id="ausblick-und-nachhaltigkeit" class="level2">
+<h2 class="anchored" data-anchor-id="ausblick-und-nachhaltigkeit">Ausblick und Nachhaltigkeit</h2>
+<section id="wird-ihre-lehrveranstaltung-wiederholt-falls-ja-oder-teilweise-schildern-sie-welche-anteileaspekte-der-veranstaltung-wiederholt-werden.-falls-nicht-schildern-sie-den-grund-warum-die-veranstaltung-nicht-wiederholt-wird.-öffentlich" class="level3">
+<h3 class="anchored" data-anchor-id="wird-ihre-lehrveranstaltung-wiederholt-falls-ja-oder-teilweise-schildern-sie-welche-anteileaspekte-der-veranstaltung-wiederholt-werden.-falls-nicht-schildern-sie-den-grund-warum-die-veranstaltung-nicht-wiederholt-wird.-öffentlich">Wird Ihre Lehrveranstaltung wiederholt? Falls ja oder teilweise, schildern Sie welche Anteile/Aspekte der Veranstaltung wiederholt werden. Falls nicht, schildern Sie den Grund, warum die Veranstaltung nicht wiederholt wird. (öffentlich)</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Bitte schreiben Sie hier 50-500 Wörter.</p>
+</div>
+</div>
+<p>Ja, die gesamte Lehrveranstaltung wird im Sommersemester 2024 erneut im Modul “Psychologischer Wahlbereich B” für Studierende im Master Psychologie an der Universität Hamburg angeboten. Eine regelmäßige Fortführung (mindestens einmal pro Jahr) im Curriculum der Masterstudierenden oder Promovierenden am Institut für Psychologie ist avisiert. Dabei soll vollständig auf den im Rahmen des Lehrprojekts erstellten Materialien aufgebaut werden und die Inhalte erweitert und ergänzt werden. Darüber hinaus ist es wahrscheinlich, dass die Inhalte und Materalien als Grundlage für weitere Lehrangebote mit anderem Format (kurze Workshops etc.) genutzt werden.</p>
+</section>
+<section id="welche-aspekte-inhalte-formate-materialien-etc.-ihres-lehrprojektes-werden-in-zukünftige-lehrveranstaltungen-einfließen-öffentlich" class="level3">
+<h3 class="anchored" data-anchor-id="welche-aspekte-inhalte-formate-materialien-etc.-ihres-lehrprojektes-werden-in-zukünftige-lehrveranstaltungen-einfließen-öffentlich">Welche Aspekte (Inhalte, Formate, Materialien, etc.) Ihres Lehrprojektes werden in zukünftige Lehrveranstaltungen einfließen? (öffentlich)</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Bitte schreiben Sie hier 50-500 Wörter.</p>
+</div>
+</div>
+<p>Alle. Die Inhalte des Lehrprojekts wurden in Form eines digitalen Handbuchs erstellt (<a href="https://lennartwittkuhn.com/version-control-book/" class="uri">https://lennartwittkuhn.com/version-control-book/</a>), das eine eigenständige öffentliche Lernressource darstellt und gleichzeitig eine umfassende inhaltliche Grundlage für verschiedene darauf aufbauende Lehrformate bietet. Weitere Materialien, wie die Kurs-Website (<a href="https://lennartwittkuhn.com/version-control-course-uhh-ws23/" class="uri">https://lennartwittkuhn.com/version-control-course-uhh-ws23/</a>) und Quizzes sind ebenfalls öffentlich zugänglich und können beliebig weiterverwendet werden. Das Format als Seminar über ein ganzes Semester bleibt voraussichtlich erhalten und wird durch andere Lehrformate (z. B. kurze Workshops), die auf den Lehrmaterialien aufbauen, ergänt.</p>
+</section>
+<section id="hätten-sie-ideen-wie-die-ergebnisse-ihres-lehrprojektes-in-anderen-fächern-oder-auch-fachübergreifend-fruchtbar-gemacht-werden-könnten-öffentlich" class="level3">
+<h3 class="anchored" data-anchor-id="hätten-sie-ideen-wie-die-ergebnisse-ihres-lehrprojektes-in-anderen-fächern-oder-auch-fachübergreifend-fruchtbar-gemacht-werden-könnten-öffentlich">Hätten Sie Ideen, wie die Ergebnisse Ihres Lehrprojektes <em>in anderen Fächern</em> oder auch <em>fachübergreifend</em> fruchtbar gemacht werden könnten? (öffentlich)</h3>
+<p>Ja, die Ergebnisse des Lehrprojekts könnten in anderen Fächern und fachübergreifend fruchtbar gemacht werden, indem die entwickelte Lernressourcen für alle Interessierten zugänglich gemacht wird. Diese Ressource könnte als Grundlage für Schulungen oder Seminare in anderen Fachbereichen dienen, in denen der Umgang mit Versionskontrolle relevant ist. Durch die Bereitstellung der Lernressource als Open Educational Resource (OER) wird die unabhängige Nutzung und Weiterentwicklung durch Lehrende in verschiedenen Disziplinen ermöglicht. Dies fördert die Verbreitung von Kenntnissen über Versionskontrolle und trägt zur Stärkung der Data Literacy in unterschiedlichen wissenschaftlichen und beruflichen Kontexten bei.</p>
+</section>
+<section id="haben-sie-daten-erhoben-gewonnen-oder-ausgewertet-die-sie-in-forschung-undoder-lehre-weiterhin-nutzen-werden-öffentlich" class="level3">
+<h3 class="anchored" data-anchor-id="haben-sie-daten-erhoben-gewonnen-oder-ausgewertet-die-sie-in-forschung-undoder-lehre-weiterhin-nutzen-werden-öffentlich">Haben Sie Daten erhoben, gewonnen oder ausgewertet, die Sie in Forschung und/oder Lehre weiterhin nutzen werden? (öffentlich)</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Sofern zutreffend: Bitte schildern Sie weitere Spezifikationen: Welche Menge an Daten? Welche Art von Daten? Aus welchen Datenquellen? etc.</p>
+</div>
+</div>
+<p>Ja, im Rahmen des Lehrprojekts wurden pseudonymisierte Ergebnisse der Selbstkontrollfragen as Daten erhoben und ausgewertet. Diese Daten dienen als Grundlage für weitere Analysen und zur Verbesserung von Lehrmethoden in zukünftigen Lehrveranstaltungen. Bei den Daten handelt es sich um Anworten auf Quizfragen zu den Lehrinhalten aus fünf Online-Umfragen in tabellarischer Form im Umfang von ca. 2 MB. Der Code zur Erstellung der Fragebögen ist öffentlich verfügbar unter <a href="https://github.com/lnnrtwttkhn/version-control-survey" class="uri">https://github.com/lnnrtwttkhn/version-control-survey</a>.</p>
+</section>
+</section>
+<section id="materialentwicklung-und-publikationen" class="level2">
+<h2 class="anchored" data-anchor-id="materialentwicklung-und-publikationen">Materialentwicklung und Publikationen</h2>
+<section id="haben-sie-lehrmaterialien-im-rahmen-ihres-projektes-entwickelt-öffentlich" class="level3">
+<h3 class="anchored" data-anchor-id="haben-sie-lehrmaterialien-im-rahmen-ihres-projektes-entwickelt-öffentlich">Haben Sie Lehrmaterialien im Rahmen Ihres Projektes entwickelt? (öffentlich)</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Hinweis: Offene Lehrmaterialien bezeichnet man auch als Open Educational Resources (OER). OER sind Bildungsmaterialien jeglicher Art und in jedem Medium, die unter einer offenen Lizenz veröffentlicht werden. Eine solche offene Lizenz ermöglicht den kostenlosen Zugang sowie die kostenlose Nutzung, Bearbeitung und Weiterverbreitung durch Andere ohne oder mit geringfügigen Einschränkungen. Open Educational Resources können einzelne Materialien aber auch komplette Kurse oder Bücher umfassen. Jedes Medium kann verwendet werden. Lehrpläne, Kursmaterialien, Lehrbücher, Streaming-Videos, Multimediaanwendungen, Podcasts – all diese Ressourcen sind OER, wenn sie unter einer offenen Lizenz veröffentlicht werden (<a href="https://www.unesco.de/bildung/open-educational-resources">Quelle: UNESCO Definition</a>).</p>
+<p><strong>Sofern Ihre Materialien nach dieser Definition <em>nicht</em> offen sind, so möchten wir Sie anregen, eine offene Lizensierung in Erwägung zu ziehen.</strong> <strong>Falls Sie dahingehend Unterstützung benötigen oder Fragen haben, steht Ihnen unser DUTy-Team jederzeit zur Verfügung: <a href="mailto:duty.isa@uni-hamburg.de">duty.isa@uni-hamburg.de</a></strong></p>
+</div>
+</div>
+<p>Ja</p>
+</section>
+<section id="falls-zutreffend-beschreiben-sie-das-lehrmaterial-welches-sie-im-rahmen-der-lehrveranstaltung-entwickelt-haben-öffentlich" class="level3">
+<h3 class="anchored" data-anchor-id="falls-zutreffend-beschreiben-sie-das-lehrmaterial-welches-sie-im-rahmen-der-lehrveranstaltung-entwickelt-haben-öffentlich">Falls zutreffend: Beschreiben Sie das Lehrmaterial, welches Sie im Rahmen der Lehrveranstaltung entwickelt haben! (öffentlich)</h3>
+<p>Im Rahmen der Lehrveranstaltung wurde ein umfassendes Open-Source-Buch mit dem Titel “Version Control of Code and Data - An Introduction for Scientists” entwickelt. Dieses Buch dient als zentrale Ressource zur Einführung in die Versionskontrolle von Code und Daten im wissenschaftlichen Kontext. Es ist auf der Website https://lennartwittkuhn.com/version-control-book/ frei verfügbar. Neben dem Buch wurde ein Quarto Workshop erstellt, der sich auf den Editor Quarto bezieht, nicht speziell auf Versionskontrolle. Zusätzlich wurden Selbstkontrollfragen entwickelt, um den Studierenden eine selbstgesteuerte Überprüfung ihres Verständnisses zu ermöglichen. Diese Materialien tragen dazu bei, die Data Literacy der Studierenden zu stärken und ihre Kompetenzen im Umgang mit Versionskontrolle zu fördern.</p>
+<p><strong>Vorhandene Materialien:</strong></p>
+<ul>
+<li><p>Buch</p></li>
+<li><p>Quarto Workshop</p></li>
+<li><p>Selbstkontrollfragen</p></li>
+<li><p>Erschaffung von virtuellem open source Buch: “Version Control of Code and Data - An Introduction for Scientists”</p></li>
+<li><p>Verfügbar auf https://lennartwittkuhn.com/version-control-book/</p></li>
+<li><p>Zudem bereitstellung von Selbstüberprüfungsfragen und quarto workshop.</p></li>
+</ul>
+</section>
+<section id="falls-zutreffend-wie-und-wo-publizieren-sie-über-ihre-lehre-und-woran-orientieren-sie-sich-dabei-z.b.-format-struktur-etc." class="level3">
+<h3 class="anchored" data-anchor-id="falls-zutreffend-wie-und-wo-publizieren-sie-über-ihre-lehre-und-woran-orientieren-sie-sich-dabei-z.b.-format-struktur-etc.">Falls zutreffend: <em>Wie</em> und <em>wo</em> publizieren Sie über Ihre Lehre und woran orientieren Sie sich dabei (z.B. Format, Struktur, etc.)?</h3>
+<p>Eine Publikation der Ergebnisse des Lehrprojekts in einem Special Issue des Journals “Neuroinformatics” mit dem Titel “Bridging the gap: How neuroinformatics is preparing the next generation of neuroscience researchers” ist avisiert. Weitere Informationen finden sich auf der Website des Journals: <a href="https://link.springer.com/collections/hfghcbgaeg" class="uri">https://link.springer.com/collections/hfghcbgaeg</a>.</p>
+</section>
+<section id="haben-sie-begleitend-oder-ergänzend-zu-ihrem-projekt-geforscht-bzw.-steht-ein-forschungsvorhaben-in-zusammenhang-mit-ihrem-lehrprojekt-öffentlich" class="level3">
+<h3 class="anchored" data-anchor-id="haben-sie-begleitend-oder-ergänzend-zu-ihrem-projekt-geforscht-bzw.-steht-ein-forschungsvorhaben-in-zusammenhang-mit-ihrem-lehrprojekt-öffentlich">Haben Sie begleitend oder ergänzend zu Ihrem Projekt geforscht bzw. steht ein Forschungsvorhaben in Zusammenhang mit Ihrem Lehrprojekt? (öffentlich)</h3>
+<p>Nein</p>
+</section>
+<section id="falls-zutreffend-welchen-forschungsfragen-sind-sie-nachgegangen-was-ist-ihr-erkenntnisinteresse-auf-welche-theorien-beziehen-sie-sich-in-ihrer-forschung-öffentlich" class="level3">
+<h3 class="anchored" data-anchor-id="falls-zutreffend-welchen-forschungsfragen-sind-sie-nachgegangen-was-ist-ihr-erkenntnisinteresse-auf-welche-theorien-beziehen-sie-sich-in-ihrer-forschung-öffentlich">Falls zutreffend: Welchen Forschungsfragen sind Sie nachgegangen, was ist Ihr Erkenntnisinteresse? Auf welche Theorien beziehen Sie sich in Ihrer Forschung? (öffentlich)</h3>
+<p>NA</p>
+</section>
+<section id="sofern-sie-bereits-lehrmaterial-undoder-forschungsbeiträge-im-zusammenhang-mit-dem-projekt-veröffentlicht-haben-oder-auch-konferenzbeiträge-vorträge-im-zusammenhang-mit-ihrem-projekt-existieren-listen-sie-dieses-bitte-hier-auf.-referenzieren-sie-dabei-möglichst-im-apa-stil-und-geben-sie-sofern-vorhanden-verlinkungen-an.-öffentlich" class="level3">
+<h3 class="anchored" data-anchor-id="sofern-sie-bereits-lehrmaterial-undoder-forschungsbeiträge-im-zusammenhang-mit-dem-projekt-veröffentlicht-haben-oder-auch-konferenzbeiträge-vorträge-im-zusammenhang-mit-ihrem-projekt-existieren-listen-sie-dieses-bitte-hier-auf.-referenzieren-sie-dabei-möglichst-im-apa-stil-und-geben-sie-sofern-vorhanden-verlinkungen-an.-öffentlich">Sofern Sie bereits Lehrmaterial und/oder Forschungsbeiträge im Zusammenhang mit dem Projekt veröffentlicht haben oder auch Konferenzbeiträge/-vorträge im Zusammenhang mit ihrem Projekt existieren, listen Sie dieses bitte hier auf. Referenzieren Sie dabei möglichst im APA-Stil und geben Sie, sofern vorhanden, Verlinkungen an. (öffentlich)</h3>
+<ul>
+<li>https://github.com/lnnrtwttkhn/ddlitlab-presentation</li>
+<li>https://github.com/lnnrtwttkhn/talk-rdm</li>
+<li>https://github.com/lnnrtwttkhn/version-control-book</li>
+</ul>
+</section>
+<section id="bitte-geben-sie-hier-verweise-auf-bereits-eingetragene-publikationen-im-portal-forschungsinformation-fis-oder-dem-forschungsdatenrepositorium-fdr-der-universität-hamburg-an.-öffentlich" class="level3">
+<h3 class="anchored" data-anchor-id="bitte-geben-sie-hier-verweise-auf-bereits-eingetragene-publikationen-im-portal-forschungsinformation-fis-oder-dem-forschungsdatenrepositorium-fdr-der-universität-hamburg-an.-öffentlich">Bitte geben Sie hier Verweise auf bereits eingetragene Publikationen im Portal Forschungsinformation (FIS) oder dem Forschungsdatenrepositorium (FDR) der Universität Hamburg an. (öffentlich)</h3>
+<ul>
+<li>nicht zutreffend</li>
+</ul>
+</section>
+</section>
+<section id="abschluss" class="level2">
+<h2 class="anchored" data-anchor-id="abschluss">Abschluss</h2>
+<section id="ihr-kommentar-haben-sie-weitere-anmerkungen-die-sich-nirgendwo-gut-unterbringen-ließen-ggf.-auch-an-das-ddlitlab-team" class="level3">
+<h3 class="anchored" data-anchor-id="ihr-kommentar-haben-sie-weitere-anmerkungen-die-sich-nirgendwo-gut-unterbringen-ließen-ggf.-auch-an-das-ddlitlab-team">Ihr Kommentar: Haben Sie weitere Anmerkungen, die sich nirgendwo gut unterbringen ließen, ggf. auch an das DDLitLab-Team?</h3>
+<p>Großartiges Programm! Vielen Dank!</p>
 
 
 </section>
+</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Copyright</h2><div id="quarto-copyright" class="quarto-appendix-contents"><div>Lennart Wittkuhn</div></div></section></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Lennart Wittkuhn</div></div></section></div></main> <!-- /main -->
 <script defer="" data-domain="lennartwittkuhn.com/ddlitlab-report" src="https://plausible.io/js/script.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -257,12 +466,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Kopiert");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Kopiert");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -333,10 +542,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   if (showAllCode) {
     showAllCode.addEventListener("click", toggleCodeHandler(true));
   }
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/lnnrtwttkhn\.github\.io\/ddlitlab-report\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -346,8 +572,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -360,6 +595,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -403,6 +757,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -428,6 +783,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -485,23 +866,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/github\.com\/lnnrtwttkhn\/ddlitlab-report");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
