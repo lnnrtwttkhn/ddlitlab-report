@@ -21,8 +21,6 @@ authors:
     corresponding: true
   affiliations:
     - ref: uhh-psych
-abstract: "This is the abstract."
-abstract-title: "Abstract"
 format:
   # see here for all html options: https://quarto.org/docs/reference/formats/html.html
   html:
