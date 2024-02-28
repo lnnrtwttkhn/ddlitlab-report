@@ -8,42 +8,40 @@ project:
     browser: true
     watch-inputs: true
     navigate: true
-author:
+authors:
 - id: wittkuhn
-  # number: number
   name:
     given: Lennart
     family: Wittkuhn
-    literal: Lennart Wittkuhn
-    # dropping-particle: string
-    # non-dropping-particle: string
+    literal: Dr. Lennart Wittkuhn
   url: https://lennartwittkuhn.com/
   email: lennart.wittkuhn@uni-hamburg.de
-  # fax: string
   orcid: 0000-0003-2966-6888
-  # note: string
-  # acknowledgements: string
   attributes:
-    corresponding: boolean
-    # equal-contributor: boolean
-    # deceased: boolean
-  # metadata: object
+    corresponding: true
   affiliations:
     - ref: uhh-psych
-abstract: "This is the abstract."
-abstract-title: "Abstract"
+- id: pagenstedt
+  name:
+    given: Konrad
+    family: Pagenstedt
+  email: konrad@pagenstedt.de
+  attributes:
+    corresponding: false
+  affiliations:
+    - ref: uhh-psych
 format:
   # see here for all html options: https://quarto.org/docs/reference/formats/html.html
   html:
     # format options:
-    theme: [cosmo, custom.scss]
+    theme: [default, custom.scss]
     anchor-sections: true
     smooth-scroll: true
     html-math-method: katex
     email-obfuscation: none
     # table of contents:
     toc: true
-    toc-depth: 3
+    toc-depth: 2
     toc-location: right
     toc-title: "Contents"
     toc-expand: true
@@ -63,7 +61,7 @@ format:
     code-link: false
     code-annotations: true
     code-tools:
-      source: https://github.com/lnnrtwttkhn/quarto-article
+      source: https://github.com/lnnrtwttkhn/ddlitlab-report
       toggle: true
       caption: "Code"
     highlight-style: monokai
