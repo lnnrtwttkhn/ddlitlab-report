@@ -32,7 +32,7 @@ format:
     email-obfuscation: none
     # table of contents:
     toc: true
-    toc-depth: 3
+    toc-depth: 2
     toc-location: right
     toc-title: "Contents"
     toc-expand: true
