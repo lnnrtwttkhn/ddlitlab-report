@@ -4,42 +4,135 @@ title: "DDLitLab Report"
 # date-modified:
 engine: knitr
 lang: de
+callout-appearance: simple
 ---
 
-### War eine besondere Ausstattung (z.B. Hard- oder Software) für Ihr Projekt erforderlich? (öffentlich) Bitte kommentieren Sie Ihre Auswahl: Inwiefern war (k)eine besondere Ausstattung erforderlich und welche?
+## Projekt-Rahmendaten
+
+#### Für welches Projekt fertigen Sie die Dokumentation an?
+
+#17 Versionskontrolle von Code und Daten mit Git und DataLad (Git)
+
+#### Bitte nennen Sie die am Projekt beteiligten Personen (Nachname, Vorname, ggf. Link zu einem Personenprofil auf der UHH-Webseite): (öffentlich)
+
+::: {.callout-note}
+Hinweis: Hier bitte auch Lehraufträge, Werkverträge und studentische/wissenschaftliche Hilfskräfte angeben.
+:::
+
+- **Projektverantwortliche:r**: Wittkuhn, Dr. Lennart, <https://lennartwittkuhn.com/>
+- **Projektmitglied 1**: Pagenstedt, Konrad
+- **Projektmitglied 2**: Schuck, Prof. Dr. Nicolas, <https://schucklab.gitlab.io/>
+
+#### Bitte geben Sie eine Kontakt-Mailadresse an: (öffentlich)
+
+::: {.callout-note}
+Hinweis: Diese wird u.a. bei öffentlichen Darstellungen Ihres Projektes mitveröffentlicht!
+:::
+
+[lennart.wittkuhn@uni-hamburg.de](mailto:lennart.wittkuhn@uni-hamburg.de)
+
+#### Sofern Sie ein separates Projektlogo/-foto hinzufügen möchten, können Sie dies hier hochladen: (öffentlich)
+
+::: {.callout-note}
+Hinweis: Bitte prüfen Sie, dass bei Fotos alle abgebildeten Personen mit der Veröffentlichung einverstanden sind und die Bildrechte bei Ihnen liegen!
+Mit dem Upload geben Sie dem DDLitLab-Projekt die Berechtigung dieses Foto unter Angabe Ihres Projektes als Urheber im Rahmen von öffentlichen Veranstaltungen, Webauftritten und Berichterstattungen an den Drittmittelgeber zu verwenden.
+Sie können diese Berechtigung jederzeit schriftlich unter ddlitlab.isa@uni-hamburg.de widerrufen. 
+:::
+
+## Angaben zur Lehrveranstaltung
+
+#### In welchem Semester wurde Ihre Lehrveranstaltung angeboten?
+
+Wintersemester
+
+#### Wie viele Studierende hatten die Lehrveranstaltung (in Summe) besucht?
+
+::: {.callout-note}
+Hinweis: Sofern Ihre Lehrveranstaltung über mehrere Semester angeboten wurde, so addieren Sie bitte die Teilnehmendenzahl in Bezug auf diese Frage aus beiden Semestern.
+Dies gilt auch für den Fall, dass in beiden Semestern die gleiche Kohorte an der Veranstaltung teilnahm. Insofern können weitere Berechnungen auf Grundlage dieser Zahlen in der statistischen Auswertung zuverlässig angewendet werden.
+:::
+
+6
+
+#### Machen Sie bitte folgende Angaben zu Ihrer Lehrveranstaltung:
+
+::: {.callout-note}
+Hinweis: Beziehen Sie sich auf die Stine-Daten Ihrer Lehrveranstaltung. 
+:::
+
+- **Modul-/Veranstaltungsnummer(n)**: 71-03.802 PsyWB / PsyM14-PsyWB-K02 
+- **Veranstaltungsart(en)**: Seminar
+- **Semesterwochenstunden (SWS)**: 2
+
+#### Machen Sie bitte folgende Angaben zu den Teilnehmenden Ihrer Lehrveranstaltung:
+
+::: {.callout-note}
+Hinweis: Beziehen Sie sich auf die Stine-Daten Ihrer Lehrveranstaltung. 
+
+Diese Daten sind aufgrund der Vertretung unterschiedlicher Studierendengruppen in DLE-Lehrveranstaltungen für uns von Interesse und werden ggf. im Rahmen interner Veranstaltungen anonym dargestellt. 
+:::
+
+- **Anzahl Studierende männlichen Geschlechts**: 2
+- **Anzahl Studierende weiblichen Geschlechts **: 4
+- **Anzahl Studierende diversen Geschlechts**: 0
+- **vertretene Studiengänge**^[vgl. Stine: "Studium", kommagetrennt angeben]: Psychologie (M.Sc.) - WiSe 14/15, Psychologie (Promotion), Psychology (M.Sc.)
+- **vertretene Studienfächer**^[vgl. Stine: "Fächer", kommagetrennt angeben]: Psychologie
+- **vertretene Studiensemester**^[vgl. Stine: "Fachsemester", kommagetrennt angeben]: 3, 8, 1, 7, 1, 9
+
+#### Wie viele Studierende haben die Veranstaltung (in Summe) erfolgreich abgeschlossen?
+
+::: {.callout-note}
+Sofern noch Prüfungen ausstehend sind, lassen Sie das Feld bitte frei. 
+
+Hinweis: Sofern Ihre Lehrveranstaltung über mehrere Semester angeboten wurde, so addieren Sie bitte die Teilnehmendenzahl in Bezug auf diese Frage aus beiden Semestern.
+Dies gilt auch für den Fall, dass in beiden Semestern die gleiche Kohorte an der Veranstaltung teilnahm.
+Insofern können weitere Berechnungen auf Grundlage dieser Zahlen in der statistischen Auswertung zuverlässig angewendet werden.
+:::
+
+6
+
+## Ressourcenmanagement
+
+#### War eine besondere Ausstattung (z.B. Hard- oder Software) für Ihr Projekt erforderlich? (öffentlich)
+
+::: {.callout-note}
+Bitte kommentieren Sie Ihre Auswahl: Inwiefern war (k)eine besondere Ausstattung erforderlich und welche?
+:::
 
 Für das Projekt war keine besondere Hardware erforderlich, jedoch besondere Software.
 Um effektives kollaboratives Arbeiten an den Lernressourcen zu ermöglichen, wurde das kostenlose open-source Versionskontrollsystem Git (<https://git-scm.com/>) verwendet, das auch Lerninhalt des Projekts war.
 Alle entwickelten Materialien wurden über die Plattform GitHub (<https://github.com/>) öffentlich geteilt.
 Es wäre begrüßenswert gewesen, statt GitHub die GitLab-Instanz der Universität Hamburg zu verwenden.
-Allerdings wäre die standardmäßige Quotierung auf 10 Projekte pro Nutzer und die Einschränkung der Funktion GitLab Pages zu retsirktiv für das Projekt gewesen.
+Allerdings wäre die standardmäßige Quotierung auf 10 Projekte pro Nutzer und die Einschränkung der Funktion GitLab Pages zu restriktiv für das Projekt gewesen.
 Für die Erstellung aller Lernressourcen wurde die kostenlose open-source Software Quarto (<https://quarto.org/>) verwendet.
-Damit wurden die Kurswebsite und alle Lehr- und Lernmaterialien erstellt.
-Um das Nutzerverhalten auf den Projektwebsites zu untersuchen, wurde die open-source Website-Analytik Software Plausible (<https://plausible.io/>) verwendet.
+Damit wurden u.a. die Kurswebsite (<https://lennartwittkuhn.com/version-control-course-uhh-ws23/>) und alle Lehr- und Lernmaterialien (<https://lennartwittkuhn.com/version-control-book/>) erstellt.
+Um das Nutzerverhalten auf den Projektwebsites zu untersuchen, wurde die open-source Software für Website-Analytik Plausible (<https://plausible.io/>) verwendet.
 
-### Konnte der Zeitplan wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
+#### Konnte der Zeitplan wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
 
 Ja, der allgemeine Zeitplan des Projekts konnte wie geplant umgesetzt werden.
 Es traten keine relevanten Abweichungen von dem im Antrag angegebenen Zeitplan auf.
-Der Zeitplan kann hier eingesehen werden: <https://lennartwittkuhn.com/ddlitlab-proposal/projektumsetzung.html>.
+Der urpsüngliche Zeitplan kann hier eingesehen werden: <https://lennartwittkuhn.com/ddlitlab-proposal/projektumsetzung.html>.
 Der Zeitplan des Kurses hingegen wurde im Verlauf des Semesters mehrmals angepasst, um flexibel auf die Lernbedarfe der Studierenden zu reagieren.
 
-### Konnte der Personaleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
+#### Konnte der Personaleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
 
 Ja, der Personaleinsatz konnte wie ursprünglich geplant umgesetzt werden. 
 Die im Projektantrag festgelegten Personalressourcen, nämlich ein:e wissenschaftliche:r Mitarbeiter:in E 13, Stufe 3, eine wissenschaftliche/studentische Hilfskraft und eine studentische:r Tutor:in, wurden gemäß den vorgesehenen Stellenanteilen, Einstellungszeiträumen und Aufgaben tatsächlich in das Lehrprojekt integriert.
 Durch eine Fehlkalkulation der benötigten Personalressourcen im Projektantrag hätten Mittel für eine weitere wissenschaftliche/studentische Hilfskraft bereit gestanden.
 Eine entsprechende Stelle wurde ausgeschrieben, konnte aber nicht geeignet besetzt werden.
-Ingesamt war der Personaleinsatz im Projekt sinnvoll und adäquat.
+Insgesamt war der Personaleinsatz im Projekt sinnvoll und adäquat.
 
-### Konnte der Sachmitteleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
+#### Konnte der Sachmitteleinsatz wie geplant umgesetzt werden? Falls nein, welche Abweichungen gab es und warum? Mit welchem Ergebnis?
 
 Nein, die Sachmittel konnten nicht wie geplant umgesetzt werden.
 Der Projektplan sah Sachmittel für die Einladung einer Referentin, Dr. Adina Wagner, vor.
 Aufgrund eines Bahnstreiks musste der geplante Vortrag virtuell gehalten werden und die für den Vortrag eingeplanten Sachmittel wurden nicht in Anspruch genommen.
 Ein ungeplanter Sachmitteleinsatz war eine Lizenz für Website-Analytics mit Plausible (<https://plausible.io/>) für den Projektzeitraum.
 
-### Was waren die Gründe für die Entwicklung Ihrer Projektidee bzw. Ihres Lehrprojektes? (öffentlich)
+## Projektidee, -ziele und -ergebnisse
+
+#### Was waren die Gründe für die Entwicklung Ihrer Projektidee bzw. Ihres Lehrprojektes? (öffentlich)
 
 ::: {.callout-note}
 Wenn man in der Lehrpraxis etwas verändert und dazu eine neue Maßnahme (in diesem Fall: ein Lehrveranstaltungskonzept) entwickelt, hat das immer irgendeinen Grund.
@@ -50,7 +143,7 @@ Bitte schreiben Sie hier 100-500 Wörter.
 :::
 
 Die digitalen Objekte auf unseren Computern sind in einem ständigen Wandel.
-Insbondere in der Wissenschaft werden Manuskripte, Programmiercode und Forschungsdaten über lange Zeiträume kontinuierlich und kollaborativ verändert.
+Insbesondere in der Wissenschaft werden Manuskripte, Programmiercode und Forschungsdaten über lange Zeiträume kontinuierlich und kollaborativ verändert.
 Viele wissenschaftliche Erkenntnisse basieren auf der Analyse von quantitativen Daten mithilfe von Programmiercode.
 Daher ist die systematische Dokumentation der Evolution digitaler Objekte eine essentielle Grundlage für reproduzierbare und transparente Wissenschaft sowie effektive und effiziente Zusammenarbeit.
 Obwohl vor allem Daten und Code integrale Bestandteile ihrer Arbeit sind, gehen Forschende mit digitalen Objekten auf ihren Computern oft chaotisch um.
@@ -58,24 +151,33 @@ Es ist nicht ungewöhnlich, dass Forschende sich fragen: "Welche Version meiner 
 Dies beeinträchtigt nicht nur die Reproduzierbarkeit und Vertrauenswürdigkeit der Forschungsarbeit, sondern führt auch häufig zu Frustration, Zeitverschwendung und schlimmstenfalls zum Verlust mühsam aufgebauter Arbeit.
 Die gute Nachricht ist, dass Forschende von Praktiken und Werkzeugen aus anderen Disziplinen lernen können, insbesondere aus dem Bereich der Softwareentwicklung, die die kollaborative Arbeit an digitalen Objekten wie Programmiercode erheblich professionalisiert haben.
 Das Herzstück dieses Toolkits ist die freie und quelloffene Software Git (<https://git-scm.com/>), ein sogenanntes Versionskontrollsystem, das es ermöglicht, die Entwicklung digitaler Objekte auf Computern zu verfolgen und zu organisieren und sie über Plattformen wie GitHub (<https://github.com/>) zu teilen.
-In diesem  Seminar mit praktischen Übungen lernten die Teilnehmenden, wie sie ihre Arbeit mit Git und GitHub verfolgen, organisieren und teilen können.
+In dem geförderten Seminar mit praktischen Übungen lernten die Teilnehmenden, wie sie ihre Arbeit mit Git und GitHub verfolgen, organisieren und mit anderen teilen können.
 
-### Gab es Ziele, die (abweichend vom Projektantrag) verändert oder angepasst wurden? Bitte nennen Sie diese und führen Sie die Gründe aus.
+#### Gab es Ziele, die (abweichend vom Projektantrag) verändert oder angepasst wurden? Bitte nennen Sie diese und führen Sie die Gründe aus.
 
 Ja, es gab eine Anpassung der Ziele im Vergleich zum ursprünglichen Projektantrag.
-Ursprünglich war geplant, sowohl Git als auch DataLad in der Lehrveranstaltung zu behandeln.
+Ursprünglich war geplant, sowohl Git als auch DataLad (<https://www.datalad.org/>) in der Lehrveranstaltung zu behandeln.
+Die kostenlose und open-source Software DataLad ermöglicht als Ergäzung zu Git auch Management und Versionskontrolle von großen Datenmengen.
 Allerdings wurde aufgrund von Zeitbeschränkungen die Entscheidung getroffen, sich ausschließlich auf Git zu konzentrieren und auf die Einbindung von DataLad zu verzichten.
 Der Hauptgrund für diese Anpassung lag in der begrenzten verfügbaren Zeit für die Lehrveranstaltung.
-Ursprünglich war zudem eine hybride Lehrform geplant, die sowohl Präsenzlehre als auch digitale Elemente einschließt. 
+Ursprünglich war zudem eine hybride Lehrform geplant, die sowohl Präsenzlehre als auch digitale Elemente einschließen sollzte. 
 Allerdings wurde entschieden, ausschließlich auf Präsenzlehre zu setzen und die hybride Variante zu verwerfen.
 
-### Konnten die Ziele (z.B. in der Lehre, im Transfer, im Allgemeinen) in Ihrem Projekt erreicht werden? (kommentar zu Ja/Nein/Teilweise)
+#### Konnten die Ziele (z.B. in der Lehre, im Transfer, im Allgemeinen) in Ihrem Projekt erreicht werden?
+
+::: {.callout-note}
+Bitte kommentieren Sie Ihre Auswahl: Inwiefern konnten Ihre Ziele (teilweise/nicht) erreicht werden? Bitte beschreiben Sie möglichst detailliert. 
+:::
 
 Teilweise.
 Das Ziel, eine Einführung in Git zu geben, wurde erfolgreich erreicht.
-Alle Teilnehmenden haben nun GitHub-Accounts und sind mit dem Konzept der Versionskontrolle vertraut.
-Jedoch wurde nur Git behandelt, und die ursprünglich geplante Einbindung von DataLad konnte aufgrund von Zeitbeschränkungen nicht umgesetzt werden.
+Alle Teilnehmenden haben nun GitHub-Accounts und sind mit den wichtigsten Konzepten der Versionskontrolle von Code und Daten mit Git vertraut.
+Jedoch wurde nur Git behandelt und die ursprünglich geplante Einbindung von DataLad konnte aufgrund von Zeitbeschränkungen nicht umgesetzt werden.
 Daher wurde nur ein Teil der ursprünglich geplanten Ziele erreicht.
+Ein weiteres Ziel war die Erstellung einer langfristigen Lernressource für die Versionskontrolle mit Git.
+Dieses Ziel wurde in Form des "Version Control Books" erreicht: <https://lennartwittkuhn.com/version-control-book/>.
+Schließlich war ein Ziel, die Lehrveranstaltung mit einer langfristigen Perspektive im Curriculum zu verankern.
+Zum Abschluss des Projekts ist Optimismus angebracht, dass dieses Ziel erreicht werden konnte.
 
 ### Welche zentralen Ergebnisse wurden Ihrer Ansicht nach mit Ihrem Lehrprojekt erzielt? (öffentlich)
 
@@ -84,17 +186,21 @@ Bitte berücksichtigen Sie dabei die Ausgangslage Ihres Lehrprojektes, die Umset
 Bitte schreiben Sie hier 250-1000 Wörter.
 :::
 
-Als Hauptergebnis des Lehrprojekts haben die Kursteilnehmenden haben die Möglichkeit erhalten, Versionskontrolle im wissenschaftlichen Kontext kennenzulernen, insbesondere durch die praxisorientierte Anwendung von Git.
+Vor dem Hintergrund einer Replikationskrise in vielen wissenschaftlichen Disziplinen und weit verbreiteten Schwierigkeiten wissenschaftliche Arbeit transparent und nachvollziehbar zu gestalten, besteht ein großer Bedarf in Forschung und Lehre, Methoden einzuführen, die die wissenscaftliche Praxis verbessern.
+
+Als Hauptergebnis des Lehrprojekts haben die Kursteilnehmenden die Möglichkeit erhalten, Versionskontrolle im wissenschaftlichen Kontext kennenzulernen, insbesondere durch die praxisorientierte Anwendung von Git.
 Durch praktische Übungen und die Nutzung von Plattformen wie GitHub haben sie fundierte Kenntnisse darüber erworben, wie Veränderungen in digitalen Objekten dokumentiert und nachvollzogen werden können.
 
 Ein weiteres bedeutsames Ergebnis des Lehrprojekts ist die Schaffung einer Open-Source-Lernressource (<https://lennartwittkuhn.com/version-control-book/>).
-Diese Ressource steht nicht nur den Teilnehmern des Projekts zur Verfügung, sondern auch der breiten Öffentlichkeit.
+Diese Ressource steht nicht nur den Teilnehmenden des Projekts zur Verfügung, sondern auch der breiten Öffentlichkeit.
 Sie fungiert als Leitfaden für die effektive Nutzung von Git im wissenschaftlichen Umfeld.
 Die Bereitstellung von Open-Source-Lernmaterialien trägt dazu bei, die Verbreitung von Wissen über Versionskontrolle zu fördern und unterstützt eine offene und transparente wissenschaftliche Praxis.
 
 Als drittes Ergebnis konnte mit dem Lehrprojekt eine innovative Arbeitsweise bei der Erstellung der Lehr-Lern-Ressourcen erfolgreich pilotiert werden.
-Jegliche im Rahmen des Lehrprojekts entstandenen Materialien, Resourcen oder Ideen wurden transparent, zugänglich und öffentlich auf GitHub entwickelt.
+Jegliche im Rahmen des Lehrprojekts entstandenen Materialien, Ressourcen oder Ideen wurden transparent, zugänglich und öffentlich auf GitHub entwickelt.
 Damit wurden Prinzipien offener und reproduzierbarer Wissenschaft erfolgreich auf die Entwicklung von Lehrmaterialien übertragen.
+Außerdem ermöglicht es, die Lehrmaterialien kollaborativ und transparent weiterzuentwickeln.
+Die Kursteilnehmenden haben bereits teilweise auf diese Möglichkeit zurückgegriffen um die Lehrenden auf notwendige Ergänzungen in den Lehrmaterialien hinzuweisen.
 
 Insgesamt haben die erzielten Ergebnisse dazu beigetragen, das Verständnis für Versionskontrolle zu vertiefen und gleichzeitig wertvolle Ressourcen für die Gemeinschaft zu schaffen.
 Dies trägt nicht nur zur Data Literacy der Teilnehmenden bei, sondern fördert auch die Prinzipien von Offenheit und Zusammenarbeit im wissenschaftlichen Umfeld.
@@ -107,7 +213,7 @@ Bitte schreiben Sie hier 50-500 Wörter.
 
 Im Verlauf des Lehrprojekts traten verschiedene Ergebnisse und Entwicklungen auf, die teilweise unerwartet waren und Einfluss auf den Projektverlauf hatten.
 
-Eine unerwartete Herausforderung war die Eingliederung des neuen Seminars in das existierende Curriculum.
+Eine unerwartete Herausforderung war die Eingliederung des neuen Seminars in das existierende Curriculum am Institut für Psychologie.
 Die organisatorischen Anpassungen und die Abstimmung mit den bestehenden Strukturen erwiesen sich als herausfordernd.
 Dies unterstreicht die Bedeutung einer frühzeitigen Planung und Koordination, um die Integration neuer Lehrveranstaltungen reibungsloser zu gestalten.
 
@@ -116,11 +222,11 @@ Dies könnte auf verschiedene Gründe zurückzuführen sein, wie z. B. mangelnde
 Die Identifikation dieser Faktoren könnte in Zukunft helfen, eine höhere Zahl an Teilnehmenden zu gewährleisten.
 
 Des Weiteren gab es Abweichungen von der angedachten Dauer der einzelnen Themen, und zwei Ausfälle aufgrund von Krankheit beeinträchtigten den ursprünglich geplanten Ablauf.
-Solche unvorhergesehenen Ereignisse sind in der Lehre nicht ungewöhnlich und erfordern eine flexible Anpassung, um die Qualität der Vermittlung zu gewährleisten.
+Solche unvorhergesehenen Ereignisse sind in der Lehre nicht ungewöhnlich und erfordern eine flexible Anpassung, um die Qualität der Lehrveranstaltung zu gewährleisten.
 
 ## DUTy und DLE 
 
-### Wie hat sich Ihre digitale und didaktische Kompetenz als Lehrperson im Rahmen der Projektförderung entwickelt? (öffentlich)
+#### Wie hat sich Ihre digitale und didaktische Kompetenz als Lehrperson im Rahmen der Projektförderung entwickelt? (öffentlich)
 
 ::: {.callout-note}
 Hinweis: Sofern mehrere Personen am Lehrprojekt beteiligt waren, schildern Sie hier bitte möglichst viele Perspektiven!
@@ -139,7 +245,7 @@ Auch im Bereich didaktischer Fähigkeiten konnte das Lehrprojekt zu der Kompeten
 Im Rahmen des Lehrprojekts wurden verschiedene didaktische Methoden erprobt: von Partner- und Gruppenarbeiten, über Quizzes bis zu Demonstrationen und Übungen.
 Ein bewusster Fokus war dabei stets, viel Zeit und Raum für Implementierung zu schaffen, bei der die Teilnehmenden anhand konkreter Übungen und Beispiele das Gelernte zur Anwendung bringen konnten.
 
-### Welchen Beitrag hat Ihr Lehrprojekt zur Data Literacy Education (DLE) an der Universität Hamburg geleistet? In Bezug darauf: Welche Kompetenzen haben die Studierenden erworben? (öffentlich)
+#### Welchen Beitrag hat Ihr Lehrprojekt zur Data Literacy Education (DLE) an der Universität Hamburg geleistet? In Bezug darauf: Welche Kompetenzen haben die Studierenden erworben? (öffentlich)
 
 ::: {.callout-note}
 Bitte schreiben Sie hier 100-1000 Wörter.
@@ -152,7 +258,8 @@ Diese praxisnahen Kompetenzen stärken nicht nur ihre Data Literacy, sondern ber
 
 ## Ausblick und Nachhaltigkeit
 
-### Wird Ihre Lehrveranstaltung wiederholt? Falls ja oder teilweise, schildern Sie welche Anteile/Aspekte der Veranstaltung wiederholt werden. Falls nicht, schildern Sie den Grund, warum die Veranstaltung nicht wiederholt wird. (öffentlich)
+### Wird Ihre Lehrveranstaltung wiederholt? Falls ja oder teilweise, schildern Sie welche Anteile/Aspekte der Veranstaltung wiederholt werden.
+Falls nicht, schildern Sie den Grund, warum die Veranstaltung nicht wiederholt wird. (öffentlich)
 
 ::: {.callout-note}
 Bitte schreiben Sie hier 50-500 Wörter.
@@ -172,29 +279,29 @@ Bitte schreiben Sie hier 50-500 Wörter.
 Alle.
 Die Inhalte des Lehrprojekts wurden in Form eines digitalen Handbuchs erstellt (<https://lennartwittkuhn.com/version-control-book/>), das eine eigenständige öffentliche Lernressource darstellt und gleichzeitig eine umfassende inhaltliche Grundlage für verschiedene darauf aufbauende Lehrformate bietet.
 Weitere Materialien, wie die Kurs-Website (<https://lennartwittkuhn.com/version-control-course-uhh-ws23/>) und Quizzes sind ebenfalls öffentlich zugänglich und können beliebig weiterverwendet werden.
-Das Format als Seminar über ein ganzes Semester bleibt voraussichtlich erhalten und wird durch andere Lehrformate (z. B. kurze Workshops), die auf den Lehrmaterialien aufbauen, ergänt.
+Das Format als Seminar über ein ganzes Semester bleibt voraussichtlich erhalten und wird durch andere Lehrformate (z. B. kurze Workshops), die auf den Lehrmaterialien aufbauen, ergänzt.
 
-### Hätten Sie Ideen, wie die Ergebnisse Ihres Lehrprojektes *in anderen Fächern* oder auch *fachübergreifend* fruchtbar gemacht werden könnten? (öffentlich)
+#### Hätten Sie Ideen, wie die Ergebnisse Ihres Lehrprojektes *in anderen Fächern* oder auch *fachübergreifend* fruchtbar gemacht werden könnten? (öffentlich)
 
 Ja, die Ergebnisse des Lehrprojekts könnten in anderen Fächern und fachübergreifend fruchtbar gemacht werden, indem die entwickelte Lernressourcen für alle Interessierten zugänglich gemacht wird. 
 Diese Ressource könnte als Grundlage für Schulungen oder Seminare in anderen Fachbereichen dienen, in denen der Umgang mit Versionskontrolle relevant ist.
 Durch die Bereitstellung der Lernressource als Open Educational Resource (OER) wird die unabhängige Nutzung und Weiterentwicklung durch Lehrende in verschiedenen Disziplinen ermöglicht. 
 Dies fördert die Verbreitung von Kenntnissen über Versionskontrolle und trägt zur Stärkung der Data Literacy in unterschiedlichen wissenschaftlichen und beruflichen Kontexten bei.
 
-### Haben Sie Daten erhoben, gewonnen oder ausgewertet, die Sie in Forschung und/oder Lehre weiterhin nutzen werden? (öffentlich)
+#### Haben Sie Daten erhoben, gewonnen oder ausgewertet, die Sie in Forschung und/oder Lehre weiterhin nutzen werden? (öffentlich)
 
 ::: {.callout-note}
 Sofern zutreffend: Bitte schildern Sie weitere Spezifikationen: Welche Menge an Daten? Welche Art von Daten? Aus welchen Datenquellen? etc.
 :::
 
-Ja, im Rahmen des Lehrprojekts wurden pseudonymisierte Ergebnisse der Selbstkontrollfragen as Daten erhoben und ausgewertet.
+Ja, im Rahmen des Lehrprojekts wurden pseudonymisierte Ergebnisse der Selbstkontrollfragen als Daten erhoben und ausgewertet.
 Diese Daten dienen als Grundlage für weitere Analysen und zur Verbesserung von Lehrmethoden in zukünftigen Lehrveranstaltungen.
-Bei den Daten handelt es sich um Anworten auf Quizfragen zu den Lehrinhalten aus fünf Online-Umfragen in tabellarischer Form im Umfang von ca. 2 MB.
+Bei den Daten handelt es sich um Antworten auf Quizfragen zu den Lehrinhalten aus fünf Online-Umfragen in tabellarischer Form im Umfang von ca. 2 MB.
 Der Code zur Erstellung der Fragebögen ist öffentlich verfügbar unter <https://github.com/lnnrtwttkhn/version-control-survey>.
 
 ## Materialentwicklung und Publikationen
 
-### Haben Sie Lehrmaterialien im Rahmen Ihres Projektes entwickelt? (öffentlich)
+#### Haben Sie Lehrmaterialien im Rahmen Ihres Projektes entwickelt? (öffentlich)
 
 ::: {.callout-note}
 Hinweis: Offene Lehrmaterialien bezeichnet man auch als Open Educational Resources (OER).
@@ -209,52 +316,57 @@ Jedes Medium kann verwendet werden. Lehrpläne, Kursmaterialien, Lehrbücher, St
 
 Ja
 
-### Falls zutreffend: Beschreiben Sie das Lehrmaterial, welches Sie im Rahmen der Lehrveranstaltung entwickelt haben! (öffentlich)
+#### Falls zutreffend: Beschreiben Sie das Lehrmaterial, welches Sie im Rahmen der Lehrveranstaltung entwickelt haben! (öffentlich)
 
 Im Rahmen der Lehrveranstaltung wurde ein umfassendes Open-Source-Buch mit dem Titel "Version Control of Code and Data - An Introduction for Scientists" entwickelt.
 Dieses Buch dient als zentrale Ressource zur Einführung in die Versionskontrolle von Code und Daten im wissenschaftlichen Kontext.
-Es ist auf der Website https://lennartwittkuhn.com/version-control-book/ frei verfügbar.
-Neben dem Buch wurde ein Quarto Workshop erstellt, der sich auf den Editor Quarto bezieht, nicht speziell auf Versionskontrolle.
+Es ist auf der Website <https://lennartwittkuhn.com/version-control-book/> frei verfügbar.
+Der Quellcode ist vollständig verfügbar auf GitHub unter <https://github.com/lnnrtwttkhn/version-control-book>.
+Neben dem Buch wurden Materialien für einen 90-minütigen Workshop zu dem open-source wissenschaftlichen und technischen Publikationssystem Quarto (<https://quarto.org/>) erstellt.
+Die Workshop-Materailien auf der Website <https://lennartwittkuhn.com/quarto-workshop/> frei verfügbar.
+Der Quellcode ist vollständig verfügbar auf GitHub unter <https://github.com/lnnrtwttkhn/quarto-workshop>.
 Zusätzlich wurden Selbstkontrollfragen entwickelt, um den Studierenden eine selbstgesteuerte Überprüfung ihres Verständnisses zu ermöglichen. 
+Auch dieser Quellcode ist vollständig verfügbar auf GitHub unter <https://github.com/lnnrtwttkhn/version-control-survey>.
 Diese Materialien tragen dazu bei, die Data Literacy der Studierenden zu stärken und ihre Kompetenzen im Umgang mit Versionskontrolle zu fördern.
 
-**Vorhandene Materialien:**
-
-- Buch
-
-- Quarto Workshop
-
-- Selbstkontrollfragen
-
-- Erschaffung von virtuellem open source Buch: "Version Control of Code and Data - An Introduction for Scientists"
-- Verfügbar auf https://lennartwittkuhn.com/version-control-book/
-- Zudem bereitstellung von Selbstüberprüfungsfragen und quarto workshop.
-
-### Falls zutreffend: *Wie* und *wo* publizieren Sie über Ihre Lehre und woran orientieren Sie sich dabei (z.B. Format, Struktur, etc.)?
+#### Falls zutreffend: *Wie* und *wo* publizieren Sie über Ihre Lehre und woran orientieren Sie sich dabei (z.B. Format, Struktur, etc.)?
 
 Eine Publikation der Ergebnisse des Lehrprojekts in einem Special Issue des Journals "Neuroinformatics" mit dem Titel "Bridging the gap: How neuroinformatics is preparing the next generation of neuroscience researchers" ist avisiert.
 Weitere Informationen finden sich auf der Website des Journals: <https://link.springer.com/collections/hfghcbgaeg>.
 
-### Haben Sie begleitend oder ergänzend zu Ihrem Projekt geforscht bzw. steht ein Forschungsvorhaben in Zusammenhang mit Ihrem Lehrprojekt? (öffentlich)
+#### Haben Sie begleitend oder ergänzend zu Ihrem Projekt geforscht bzw. steht ein Forschungsvorhaben in Zusammenhang mit Ihrem Lehrprojekt? (öffentlich)
 
 Nein
 
-### Falls zutreffend: Welchen Forschungsfragen sind Sie nachgegangen, was ist Ihr Erkenntnisinteresse? Auf welche Theorien beziehen Sie sich in Ihrer Forschung? (öffentlich)
+#### Falls zutreffend: Welchen Forschungsfragen sind Sie nachgegangen, was ist Ihr Erkenntnisinteresse? Auf welche Theorien beziehen Sie sich in Ihrer Forschung? (öffentlich)
 
 NA
 
-### Sofern Sie bereits Lehrmaterial und/oder Forschungsbeiträge im Zusammenhang mit dem Projekt veröffentlicht haben oder auch Konferenzbeiträge/-vorträge im Zusammenhang mit ihrem Projekt existieren, listen Sie dieses bitte hier auf. Referenzieren Sie dabei möglichst im APA-Stil und geben Sie, sofern vorhanden, Verlinkungen an. (öffentlich)
+#### Sofern Sie bereits Lehrmaterial und/oder Forschungsbeiträge im Zusammenhang mit dem Projekt veröffentlicht haben oder auch Konferenzbeiträge/-vorträge im Zusammenhang mit ihrem Projekt existieren, listen Sie dieses bitte hier auf.
+Referenzieren Sie dabei möglichst im APA-Stil und geben Sie, sofern vorhanden, Verlinkungen an. (öffentlich)
 
-- https://github.com/lnnrtwttkhn/ddlitlab-presentation
-- https://github.com/lnnrtwttkhn/talk-rdm
-- https://github.com/lnnrtwttkhn/version-control-book
+::: {.callout-note}
+Hinweis: Alle Veröffentlichungen im Rahmen von DDLitLab werden unter https://www.isa.uni-hamburg.de/ddlitlab/das-projekt/fis.html aufgelistet!
+:::
 
-### Bitte geben Sie hier Verweise auf bereits eingetragene Publikationen im Portal Forschungsinformation (FIS) oder dem Forschungsdatenrepositorium (FDR) der Universität Hamburg an. (öffentlich)
+- <https://github.com/lnnrtwttkhn/ddlitlab-presentation>
+- <https://github.com/lnnrtwttkhn/talk-rdm>
+- <https://github.com/lnnrtwttkhn/version-control-book>
 
-- nicht zutreffend
+::: {.callout-note}
+Hinweis: Bitte tragen Sie die Publikationen in das [Portal Forschungsinformation (FIS)](https://www.fis.uni-hamburg.de/) der Universität Hamburg ein. Versehen Sie die mit DDLitLab assoziierten Publikationen bitte unter "Stichwort für Website" in Pure mit dem Stichwort "ISA-DDLitLab". Wenden Sie sich bei Problemen mit dem Zugriff auf diese Option bitte an Ihre/n zuständige/n Redakteur/in oder kommen Sie auf uns zu. Datenpublikationen können sie im [Forschungsdatenrepositorium (FDR)](https://www.fdr.uni-hamburg.de/communities/ddlitlab/) der Universität Hamburg vornehmen und Ihre Daten so nachhaltig verfügbar, DOI-referenziert und somit einfacher zitierfähig machen. 
+:::
+
+#### Bitte geben Sie hier Verweise auf bereits eingetragene Publikationen im Portal Forschungsinformation (FIS) oder dem Forschungsdatenrepositorium (FDR) der Universität Hamburg an. (öffentlich)
+
+::: {.callout-note}
+Die Angabe der URL zum jeweiligen Eintrag im FIS/FDR reicht hier aus.
+:::
+
+Nicht zutreffend.
 
 ## Abschluss
 
-### Ihr Kommentar: Haben Sie weitere Anmerkungen, die sich nirgendwo gut unterbringen ließen, ggf. auch an das DDLitLab-Team?
+#### Ihr Kommentar: Haben Sie weitere Anmerkungen, die sich nirgendwo gut unterbringen ließen, ggf. auch an das DDLitLab-Team?
 
 Großartiges Programm! Vielen Dank!
