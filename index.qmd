@@ -318,10 +318,11 @@ Ja
 
 #### Falls zutreffend: Beschreiben Sie das Lehrmaterial, welches Sie im Rahmen der Lehrveranstaltung entwickelt haben! (öffentlich)
 
-Im Rahmen der Lehrveranstaltung wurde ein umfassendes Open-Source-Buch mit dem Titel "Version Control of Code and Data - An Introduction for Scientists" entwickelt.
+Im Rahmen der Lehrveranstaltung wurde ein umfassendes Open-Source-Buch mit dem Arbeitstitel "Version Control Book" entwickelt.
 Dieses Buch dient als zentrale Ressource zur Einführung in die Versionskontrolle von Code und Daten im wissenschaftlichen Kontext.
 Es ist auf der Website <https://lennartwittkuhn.com/version-control-book/> frei verfügbar.
-Der Quellcode ist vollständig verfügbar auf GitHub unter <https://github.com/lnnrtwttkhn/version-control-book>.
+Der Quellcode ist vollständig verfügbar auf GitHub unter <https://github.com/lnnrtwttkhn/version-control-book> (DOI: 10.5281/zenodo.10724425).
+Eine PDF-Version ist im im Forschungsdatenrepositorium (FDR) der Universität Hamburg archiviert (<http://doi.org/10.25592/uhhfdm.14149>).
 Neben dem Buch wurden Materialien für einen 90-minütigen Workshop zu dem open-source wissenschaftlichen und technischen Publikationssystem Quarto (<https://quarto.org/>) erstellt.
 Die Workshop-Materailien auf der Website <https://lennartwittkuhn.com/quarto-workshop/> frei verfügbar.
 Der Quellcode ist vollständig verfügbar auf GitHub unter <https://github.com/lnnrtwttkhn/quarto-workshop>.
@@ -349,9 +350,14 @@ Referenzieren Sie dabei möglichst im APA-Stil und geben Sie, sofern vorhanden, 
 Hinweis: Alle Veröffentlichungen im Rahmen von DDLitLab werden unter https://www.isa.uni-hamburg.de/ddlitlab/das-projekt/fis.html aufgelistet!
 :::
 
-- <https://github.com/lnnrtwttkhn/ddlitlab-presentation>
-- <https://github.com/lnnrtwttkhn/talk-rdm>
-- <https://github.com/lnnrtwttkhn/version-control-book>
+- <https://lennartwittkuhn.com/ddlitlab/>
+- <https://lennartwittkuhn.com/version-control-book/>
+- <https://lennartwittkuhn.com/version-control-course-uhh-ws23/>
+- <https://lennartwittkuhn.com/version-control-survey/>
+- <https://lennartwittkuhn.com/ddlitlab-proposal/>
+- <https://lennartwittkuhn.com/ddlitlab-presentation/>
+- <https://lennartwittkuhn.com/ddlitlab-report/>
+- <https://lennartwittkuhn.com/quarto-workshop/>
 
 ::: {.callout-note}
 Hinweis: Bitte tragen Sie die Publikationen in das [Portal Forschungsinformation (FIS)](https://www.fis.uni-hamburg.de/) der Universität Hamburg ein. Versehen Sie die mit DDLitLab assoziierten Publikationen bitte unter "Stichwort für Website" in Pure mit dem Stichwort "ISA-DDLitLab". Wenden Sie sich bei Problemen mit dem Zugriff auf diese Option bitte an Ihre/n zuständige/n Redakteur/in oder kommen Sie auf uns zu. Datenpublikationen können sie im [Forschungsdatenrepositorium (FDR)](https://www.fdr.uni-hamburg.de/communities/ddlitlab/) der Universität Hamburg vornehmen und Ihre Daten so nachhaltig verfügbar, DOI-referenziert und somit einfacher zitierfähig machen. 
@@ -363,10 +369,14 @@ Hinweis: Bitte tragen Sie die Publikationen in das [Portal Forschungsinformation
 Die Angabe der URL zum jeweiligen Eintrag im FIS/FDR reicht hier aus.
 :::
 
-Nicht zutreffend.
+<http://doi.org/10.25592/uhhfdm.14149>
 
 ## Abschluss
 
 #### Ihr Kommentar: Haben Sie weitere Anmerkungen, die sich nirgendwo gut unterbringen ließen, ggf. auch an das DDLitLab-Team?
 
-Großartiges Programm! Vielen Dank!
+Großartiges Programm!
+Vielen Dank!
+
+Diese Projektdokumentation ist auch verfügbar auf <https://lennartwittkuhn.com/ddlitlab-report/>.
+Der Quellcode findet sich auf GitHub unter <https://github.com/lnnrtwttkhn/ddlitlab-report>.
