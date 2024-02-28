@@ -21,6 +21,15 @@ authors:
     corresponding: true
   affiliations:
     - ref: uhh-psych
+- id: pagenstedt
+  name:
+    given: Konrad
+    family: Pagenstedt
+  email: konrad@pagenstedt.de
+  attributes:
+    corresponding: false
+  affiliations:
+    - ref: uhh-psych
 format:
   # see here for all html options: https://quarto.org/docs/reference/formats/html.html
   html:
